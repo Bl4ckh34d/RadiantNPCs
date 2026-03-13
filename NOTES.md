@@ -18,6 +18,9 @@ These are the requirements provided so far and should be preserved as design con
 - Do not allow the vanilla system to effectively generate infinite random mobile NPCs.
 - RadiantNPCs should control the creation of mobile civilians and assign them to houses in a settlement/city/village.
 - The number of residents in a village, city, farm, or settlement should be based on the number of beds, with a small amount of variation.
+- Bed-based occupancy is preferred over simple building-type heuristics.
+- A couple (one man and one woman) can share a single bed.
+- Current data-model assumption: in households with at least two adult residents, the first generated male/female pair is treated as the core couple for shared-bed and paired-behavior logic.
 - NPCs already have names and disposition data; this data should persist so the same NPCs return on revisits.
 - NPCs should eventually have schedules and basic waypoint/pathfinding behavior.
 - NPCs should have collision with the player.
@@ -30,6 +33,8 @@ These are the requirements provided so far and should be preserved as design con
 - NPCs who actually live in the same house should share the same last name.
 - Visiting NPCs are separate from the household and do not need to share the household surname.
 - Houses that are for sale should not have household NPCs assigned to them.
+- If all inhabitants are away, residential houses should be locked.
+- Night-time locking should continue to respect vanilla DFU behavior unless RadiantNPCs intentionally extends it.
 
 ### First milestone
 
@@ -55,6 +60,7 @@ These are the requirements provided so far and should be preserved as design con
 
 - Keep a Markdown notes file in the mod folder and keep updating it with new requirements and findings.
 - Always record new user-provided design details in this file before acting on them so the mod definition is not lost.
+- Mirror `RadiantNPCs:` debug logs into a text log file inside the mod folder so iteration does not depend on manually copying Unity console output.
 
 ### Long-term AI / radiant behavior
 
@@ -66,6 +72,46 @@ These are the requirements provided so far and should be preserved as design con
 - Dynamic NPC shoppers should enter shops, walk around inside, interact socially with the static shop owner, and then leave again.
 - Shops keep their existing static shop-owner/shop-worker flat NPCs as the permanent inhabitants of the shop.
 - The overall target is a lightweight radiant-style NPC system similar in spirit to Oblivion.
+- Mobile NPC movement should move away from pure randomized wandering and toward waypoint-based behavior.
+- NPCs should have a field of vision.
+- Mobile NPC billboards/flats should not automatically turn to a "facing the player" look when the player approaches from behind.
+- NPCs should only visually react/turn toward the player when the player is inside their field of vision or when the NPC is actively interacting with the player.
+- NPC field of vision should also matter for NPC-to-NPC interactions.
+- NPCs should notice each other through their vision logic, then sometimes stop for a short or long spontaneous conversation.
+- Mobile NPCs should eventually stop moving in perfect straight-line waypoint segments with sharp turns.
+- A preferred intermediate improvement is slow steering/rotation so NPCs round corners in arcs instead of snapping direction at each waypoint.
+- This implies NPCs should reason about at least the next waypoint ahead, not only the immediate one.
+- A longer-term preferred solution is A* pathfinding toward a true destination such as a shop, building door, or prop/landmark.
+- The heavier pathfinding/simulation version should ideally be moved to a compute-shader/GPU solution if performance requires it.
+- Residential interior NPCs can remain stationary at first if necessary.
+- If interior movement is added later, residential NPCs should be stationary most of the time and only occasionally move to another room.
+- Whether someone is home should come from their actual schedule plus some controlled variability, not pure random presence checks.
+- Single-person households should have the highest chance that nobody is home.
+- Larger households should have a higher chance that at least one person is home.
+- Couples should sometimes walk together through the city as a pair.
+- Couples can split temporarily at destinations such as markets or shops and meet up again outside before returning together.
+- Guards should make up roughly 5-10% of the population.
+- Guards patrol streets, especially during the day.
+- Guards should still exist at night, but in reduced numbers.
+- Guards may patrol alone or in pairs.
+- City walls and gate/wall structures should be treated as guard-related living/patrol spaces.
+
+### Activity / destination ideas
+
+- Market squares as major daytime hubs.
+- Wells and statues as casual social gathering points.
+- Tree-filled parks or greener plazas as preferred leisure destinations.
+- Inns/taverns becoming busier in the evening, especially near weekends or holidays.
+- Musicians or performers attracting temporary crowds.
+- Jesters or other stationary entertainer NPCs creating come-and-go audience groups.
+- Couples taking walks together.
+- Friends visiting houses.
+- Short shopping trips to one or more stores.
+- Window-shopping / wandering around named commercial streets.
+- Brief stop-and-chat interactions on roads.
+- Guard checkpoint / wall / gate patrol loops.
+- Evening tavern visits followed by staggered departures home.
+- Holiday-specific social hotspots and denser public activity.
 
 ### Performance / implementation notes
 
@@ -73,6 +119,26 @@ These are the requirements provided so far and should be preserved as design con
 - Treat compute shaders as an optimization path, not a hard requirement for the first playable implementation.
 - Compute shaders are currently the most likely optimization path for handling large NPC counts plus behavior/pathfinding load, but this should be validated with testing and profiling before committing to that architecture.
 - Preferred architecture: persist and simulate high-level state for the whole city, but only instantiate and run detailed movement/pathfinding for the active nearby subset of NPCs around the player.
+
+### Future AI / voice integration ideas
+
+- Possible future integration of MiraTTS, prewarmed in the background through a Python script or plugin, to generate NPC voice lines during conversations.
+- Possible future integration of a lightweight local LLM through LM Studio for custom conversation generation or rephrasing of standard NPC lines.
+- These integrations are optional future extensions and should not block the core resident/schedule simulation work.
+
+### Bed counting notes
+
+- Current implementation uses interior bed model IDs to estimate household capacity.
+- Current implementation also checks residential interior `Rest` markers and uses them as a sleep-capacity signal.
+- Initial inferred mapping:
+  - `41000` -> single bed
+  - `41001` -> single bed
+  - `41002` -> double bed
+- Effective household capacity currently uses the maximum of:
+  - detected rest-marker count
+  - detected bed-model capacity
+- This mapping is based on editor grouping data and may need correction after inspecting more actual house interiors in-game.
+- If no bed models are found for a residence, the mod currently falls back to the older house-type heuristic rather than failing.
 
 ## Code Findings
 
@@ -177,6 +243,14 @@ Relevant files:
   - disposition
   - assigned home building key
 - The existing movement/behavior logic will likely need to be overridden or substantially redirected so generated residents act like household-driven actors rather than vanilla random wanderers.
+- Current implementation direction now includes:
+  - coarse resident roles (`Civilian` / `Guard`)
+  - coarse hourly outside/home schedule states
+  - active-bubble-style resident selection based on households near the player
+  - simple pair/couple schedule synchronization for some shared outings
+  - visible guard appearance for patrol-state guards
+  - basic household-presence balancing so larger households are less often completely empty during the day
+  - coarse destination building targets for shopping, tavern visits, and social visits
 
 ### Phase 2
 
