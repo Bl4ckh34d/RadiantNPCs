@@ -1,0 +1,9 @@
+{
+    "ModTitle": "RadiantNPCs",
+    "ModVersion": "0.1",
+    "ModAuthor": "Daniel Schmidt",
+    "DFUnity_Version": "Unity 2019.4.40f1",
+    "ModDescription": "An attempt at giving NPCs a more immersive behaviour",
+    "GUID": "40cbb328-9276-41fc-898e-6d0a391bdc67",
+    "Files": []
+}

@@ -1,0 +1,8 @@
+Out~/
+Build/
+bin/
+obj/
+.vs/
+.vscode/
+.idea/
+*.dfmod
