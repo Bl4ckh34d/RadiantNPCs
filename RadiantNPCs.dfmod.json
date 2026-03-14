@@ -1,12 +1,14 @@
 {
     "ModTitle": "RadiantNPCs",
-    "ModVersion": "0.1.0",
+    "ModVersion": "0.2.0",
     "ModAuthor": "Daniel Schmidt",
     "ContactInfo": "https://github.com/Bl4ckh34d/RadiantNPCs",
     "DFUnity_Version": "1.1.1",
     "ModDescription": "An attempt at giving NPCs a more immersive behaviour",
     "GUID": "40cbb328-9276-41fc-898e-6d0a391bdc67",
     "Files": [
-        "Assets/Game/Mods/RadiantNPCs/Scripts/RadiantNPCsMain.cs"
+        "Assets/Game/Mods/RadiantNPCs/Scripts/RadiantNPCsMain.cs",
+        "Assets/Game/Mods/RadiantNPCs/Scripts/RadiantNPCsSharedNavigation.cs",
+        "Assets/Game/Mods/RadiantNPCs/RadiantNPCsFlowField.compute"
     ]
 }

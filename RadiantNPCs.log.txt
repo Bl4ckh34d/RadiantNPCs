@@ -1,0 +1,997 @@
+[2026-03-14 23:45:08] RadiantNPCs: initialized mod 'RadiantNPCs' v0.2.0.
+[2026-03-14 23:45:19] RadiantNPCs: restored save data for 0 locations.
+[2026-03-14 23:45:44] RadiantNPCs: household breakdown for Daggerfall/Ipshead: House1=1, House2=299, House3=27, House4=0, totalBedCapacity=536, avgResidentsPerHousehold=1,64.
+[2026-03-14 23:45:44] RadiantNPCs: bed detection for Daggerfall/Ipshead: housesWithDetectedBeds=319, housesUsingFallbackCapacity=8, fallbackSamples=[131334, 197643, 197644, 262404, 262414, 393728, 393989, 393996].
+[2026-03-14 23:45:44] RadiantNPCs: resident generation for Daggerfall/Ipshead completed in 114 ms.
+[2026-03-14 23:45:44] RadiantNPCs: created resident pool for Daggerfall/Ipshead (MapID=1170417075, households=327, residents=536).
+[2026-03-14 23:45:44] RadiantNPCs: prepared shared navigation context for MapID=1170417075 (patrolAnchors=12, gpuFields=True).
+[2026-03-14 23:45:44] RadiantNPCs: schedule summary for Daggerfall/Ipshead at 10:00 - home=148, wander=233, shop=135, visit=0, tavern=0, patrol=20.
+[2026-03-14 23:45:44] RadiantNPCs: set max exterior resident population to 49 for MapID=1170417075.
+[2026-03-14 23:45:44] RadiantNPCs: assigned resident 'Mordyrick Mastersley' (ResidentID=399, HouseholdID=245, Home=328449, Target=132114, Role=Civilian, State=Shopping) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:44] RadiantNPCs: resident 399 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-14 23:45:45] RadiantNPCs: assigned resident 'Andistair Woodham' (ResidentID=420, HouseholdID=258, Home=328705, Target=328193, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:45] RadiantNPCs: resident 420 configured shared-field movement toward target 328193 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:45] RadiantNPCs: assigned resident 'Trististyr Copperford' (ResidentID=422, HouseholdID=259, Home=328706, Target=197376, Role=Civilian, State=Shopping) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:45] RadiantNPCs: resident 422 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:45:45] RadiantNPCs: assigned resident 'Agristair Moorham' (ResidentID=424, HouseholdID=261, Home=328708, Target=393728, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:45] RadiantNPCs: resident 424 configured shared-field movement toward target 393728 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:45] RadiantNPCs: assigned resident 'Ysausa Moorham' (ResidentID=425, HouseholdID=261, Home=328708, Target=328717, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:46] RadiantNPCs: resident 425 configured shared-field movement toward target 328717 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:46] RadiantNPCs: assigned resident 'Alabyrick Ashsley' (ResidentID=427, HouseholdID=262, Home=328709, Target=328198, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:46] RadiantNPCs: resident 427 configured shared-field movement toward target 328198 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:46] RadiantNPCs: assigned resident 'Peryctor Ashsley' (ResidentID=429, HouseholdID=262, Home=328709, Target=197641, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:46] RadiantNPCs: resident 429 configured shared-field movement toward target 197641 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:46] RadiantNPCs: assigned resident 'Vyctabyth Greensley' (ResidentID=434, HouseholdID=265, Home=328712, Target=328205, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:46] RadiantNPCs: resident 434 configured shared-field movement toward target 328205 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:46] RadiantNPCs: assigned resident 'Chrystona Moorford' (ResidentID=435, HouseholdID=266, Home=328713, Target=131329, Role=Civilian, State=Shopping) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:47] RadiantNPCs: resident 435 configured shared-field movement toward target 131329 (state=Shopping, source=GPU).
+[2026-03-14 23:45:47] RadiantNPCs: assigned resident 'Vannyn Mastersmith' (ResidentID=436, HouseholdID=267, Home=328715, Target=393733, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:47] RadiantNPCs: resident 436 fell back to CPU shared field for target 393733.
+[2026-03-14 23:45:47] RadiantNPCs: resident 436 retargeted to 132114 after navigation failure.
+[2026-03-14 23:45:47] RadiantNPCs: resident 436 configured shared-field movement toward target 132114 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:45:47] RadiantNPCs: assigned resident 'Belladausa Wickhart' (ResidentID=486, HouseholdID=297, Home=393985, Target=65809, Role=Civilian, State=Shopping) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:48] RadiantNPCs: resident 486 fell back to CPU shared field for target 65809.
+[2026-03-14 23:45:48] RadiantNPCs: resident 486 retargeted to 132114 after navigation failure.
+[2026-03-14 23:45:48] RadiantNPCs: resident 486 configured shared-field movement toward target 132114 (state=Shopping, source=CPU).
+[2026-03-14 23:45:48] RadiantNPCs: assigned resident 'Rodistyr Kingford' (ResidentID=407, HouseholdID=249, Home=328453, Target=262403, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-14 23:45:48] RadiantNPCs: resident 407 configured shared-field movement toward target 262403 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:48] RadiantNPCs: suppressing further per-NPC assignment logs for MapID=1170417075.
+[2026-03-14 23:45:48] RadiantNPCs: resident 437 fell back to CPU shared field for target 66560.
+[2026-03-14 23:45:49] RadiantNPCs: resident 438 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-14 23:45:50] RadiantNPCs: resident 441 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-14 23:45:50] RadiantNPCs: resident 489 configured shared-field movement toward target 131849 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:51] RadiantNPCs: resident 442 configured shared-field movement toward target 197120 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:51] RadiantNPCs: resident 491 configured shared-field movement toward target 393992 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:51] RadiantNPCs: resident 493 fell back to CPU shared field for target 393736.
+[2026-03-14 23:45:51] RadiantNPCs: resident 493 retargeted to 66573 after navigation failure.
+[2026-03-14 23:45:51] RadiantNPCs: movement disabled for resident 493 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:45:52] RadiantNPCs: resident 494 configured shared-field movement toward target 328199 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:52] RadiantNPCs: resident 440 configured shared-field movement toward target 393988 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:53] RadiantNPCs: resident 497 configured shared-field movement toward target 65792 (state=Shopping, source=GPU).
+[2026-03-14 23:45:53] RadiantNPCs: resident 498 configured shared-field movement toward target 262916 (state=Shopping, source=GPU).
+[2026-03-14 23:45:53] RadiantNPCs: resident 405 configured shared-field movement toward target 328720 (state=Shopping, source=GPU).
+[2026-03-14 23:45:54] RadiantNPCs: resident 406 configured shared-field movement toward target 262915 (state=Shopping, source=GPU).
+[2026-03-14 23:45:54] RadiantNPCs: resident 412 configured shared-field movement toward target 393732 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:55] RadiantNPCs: resident 474 fell back to CPU shared field for target 327938.
+[2026-03-14 23:45:55] RadiantNPCs: resident 474 retargeted to 131857 after navigation failure.
+[2026-03-14 23:45:55] RadiantNPCs: movement disabled for resident 474 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:45:55] RadiantNPCs: resident 499 configured shared-field movement toward target 328706 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:55] RadiantNPCs: resident 500 configured shared-field movement toward target 197633 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:55] RadiantNPCs: resident 502 configured shared-field movement toward target 393735 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:56] RadiantNPCs: resident 504 configured shared-field movement toward target 393738 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:56] RadiantNPCs: resident 432 configured shared-field movement toward target 393485 (state=Shopping, source=GPU).
+[2026-03-14 23:45:56] RadiantNPCs: resident 505 configured shared-field movement toward target 196864 (state=Shopping, source=GPU).
+[2026-03-14 23:45:57] RadiantNPCs: resident 506 configured shared-field movement toward target 393474 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:57] RadiantNPCs: resident 507 configured shared-field movement toward target 393998 (state=Shopping, source=GPU).
+[2026-03-14 23:45:57] RadiantNPCs: resident 409 configured shared-field movement toward target 328460 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:57] RadiantNPCs: resident 423 configured shared-field movement toward target 393731 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:58] RadiantNPCs: resident 509 fell back to CPU shared field for target 262913.
+[2026-03-14 23:45:58] RadiantNPCs: resident 509 retargeted to 66319 after navigation failure.
+[2026-03-14 23:45:58] RadiantNPCs: resident 511 configured shared-field movement toward target 393483 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:58] RadiantNPCs: resident 417 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-14 23:45:58] RadiantNPCs: resident 410 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-14 23:45:59] RadiantNPCs: resident 467 configured shared-field movement toward target 263171 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:45:59] RadiantNPCs: resident 512 fell back to CPU shared field for target -1000009.
+[2026-03-14 23:45:59] RadiantNPCs: resident 512 retargeted to -1000008 after navigation failure.
+[2026-03-14 23:45:59] RadiantNPCs: movement disabled for resident 512 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:46:00] RadiantNPCs: resident 513 configured shared-field movement toward target 197383 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:00] RadiantNPCs: resident 374 fell back to CPU shared field for target 393478.
+[2026-03-14 23:46:00] RadiantNPCs: resident 374 retargeted to 131857 after navigation failure.
+[2026-03-14 23:46:00] RadiantNPCs: resident 374 configured shared-field movement toward target 131857 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:46:01] RadiantNPCs: resident 413 configured shared-field movement toward target 131330 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:01] RadiantNPCs: resident 484 configured shared-field movement toward target 393734 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:01] RadiantNPCs: resident 515 configured shared-field movement toward target 328707 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:02] RadiantNPCs: resident 516 fell back to CPU shared field for target 394242.
+[2026-03-14 23:46:02] RadiantNPCs: resident 516 retargeted to 65810 after navigation failure.
+[2026-03-14 23:46:02] RadiantNPCs: movement disabled for resident 516 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:46:02] RadiantNPCs: resident 517 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-14 23:46:02] RadiantNPCs: resident 339 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-14 23:46:02] RadiantNPCs: resident 518 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-14 23:46:03] RadiantNPCs: resident 520 configured shared-field movement toward target 328712 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:03] RadiantNPCs: resident 521 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:46:03] RadiantNPCs: resident 336 configured shared-field movement toward target 328200 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:03] RadiantNPCs: resident 337 configured shared-field movement toward target 394257 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:03] RadiantNPCs: resident 328 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:46:04] RadiantNPCs: resident 418 fell back to CPU shared field for target 393477.
+[2026-03-14 23:46:04] RadiantNPCs: resident 418 retargeted to 66060 after navigation failure.
+[2026-03-14 23:46:04] RadiantNPCs: resident 418 configured shared-field movement toward target 66060 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:46:05] RadiantNPCs: resident 386 configured shared-field movement toward target 262917 (state=Shopping, source=GPU).
+[2026-03-14 23:46:05] RadiantNPCs: resident 414 fell back to CPU shared field for target 393996.
+[2026-03-14 23:46:05] RadiantNPCs: resident 414 retargeted to 65801 after navigation failure.
+[2026-03-14 23:46:05] RadiantNPCs: resident 414 configured shared-field movement toward target 65801 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:46:05] RadiantNPCs: resident 419 configured shared-field movement toward target 197637 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:06] RadiantNPCs: resident 469 configured shared-field movement toward target 197632 (state=Shopping, source=GPU).
+[2026-03-14 23:46:06] RadiantNPCs: resident 472 configured shared-field movement toward target 131857 (state=Shopping, source=GPU).
+[2026-03-14 23:46:06] RadiantNPCs: resident 473 configured shared-field movement toward target 66319 (state=Shopping, source=GPU).
+[2026-03-14 23:46:06] RadiantNPCs: resident 522 configured shared-field movement toward target 393990 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:07] RadiantNPCs: resident 524 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-14 23:46:07] RadiantNPCs: resident 525 configured shared-field movement toward target 262917 (state=Shopping, source=GPU).
+[2026-03-14 23:46:07] RadiantNPCs: resident 323 fell back to CPU shared field for target 263174.
+[2026-03-14 23:46:07] RadiantNPCs: resident 323 retargeted to 131600 after navigation failure.
+[2026-03-14 23:46:07] RadiantNPCs: resident 323 configured shared-field movement toward target 131600 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:46:07] RadiantNPCs: resident 403 configured shared-field movement toward target 66311 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:08] RadiantNPCs: resident 526 configured shared-field movement toward target 394254 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:08] RadiantNPCs: resident 527 fell back to CPU shared field for target 196879.
+[2026-03-14 23:46:08] RadiantNPCs: resident 527 retargeted to 66048 after navigation failure.
+[2026-03-14 23:46:08] RadiantNPCs: movement disabled for resident 527 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:46:08] RadiantNPCs: resident 529 configured shared-field movement toward target 262656 (state=Shopping, source=GPU).
+[2026-03-14 23:46:09] RadiantNPCs: resident 326 configured shared-field movement toward target 327942 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:09] RadiantNPCs: resident 320 configured shared-field movement toward target 394256 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:09] RadiantNPCs: resident 321 configured shared-field movement toward target 328197 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:09] RadiantNPCs: resident 416 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-14 23:46:09] RadiantNPCs: resident 530 configured shared-field movement toward target 131338 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:10] RadiantNPCs: resident 531 fell back to CPU shared field for target 66560.
+[2026-03-14 23:46:10] RadiantNPCs: resident 531 retargeted to 197376 after navigation failure.
+[2026-03-14 23:46:10] RadiantNPCs: resident 531 configured shared-field movement toward target 197376 (state=Shopping, source=CPU).
+[2026-03-14 23:46:10] RadiantNPCs: resident 532 configured shared-field movement toward target 393485 (state=Shopping, source=GPU).
+[2026-03-14 23:46:10] RadiantNPCs: resident 533 configured shared-field movement toward target 328455 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:10] RadiantNPCs: resident 535 configured shared-field movement toward target 328457 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:11] RadiantNPCs: resident 536 fell back to CPU shared field for target 65809.
+[2026-03-14 23:46:11] RadiantNPCs: resident 536 retargeted to 262914 after navigation failure.
+[2026-03-14 23:46:11] RadiantNPCs: resident 536 configured shared-field movement toward target 262914 (state=Shopping, source=CPU).
+[2026-03-14 23:46:11] RadiantNPCs: resident 399 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-14 23:46:11] RadiantNPCs: resident 420 configured shared-field movement toward target 328193 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:11] RadiantNPCs: resident 422 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:46:12] RadiantNPCs: resident 424 configured shared-field movement toward target 393728 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:12] RadiantNPCs: resident 425 configured shared-field movement toward target 328717 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:12] RadiantNPCs: resident 427 configured shared-field movement toward target 328198 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:12] RadiantNPCs: resident 429 configured shared-field movement toward target 197641 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:12] RadiantNPCs: resident 434 configured shared-field movement toward target 328205 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:13] RadiantNPCs: resident 435 configured shared-field movement toward target 131329 (state=Shopping, source=GPU).
+[2026-03-14 23:46:13] RadiantNPCs: resident 436 configured shared-field movement toward target 132114 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:13] RadiantNPCs: resident 486 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-14 23:46:14] RadiantNPCs: resident 407 configured shared-field movement toward target 262403 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:14] RadiantNPCs: resident 437 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-14 23:46:14] RadiantNPCs: movement disabled for resident 438 because no free reachable start tile was available.
+[2026-03-14 23:46:14] RadiantNPCs: resident 465 configured shared-field movement toward target 263168 (state=Shopping, source=GPU).
+[2026-03-14 23:46:14] RadiantNPCs: resident 471 configured shared-field movement toward target 393729 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:17] RadiantNPCs: resident 398 fell back to CPU shared field for target -1000003.
+[2026-03-14 23:46:17] RadiantNPCs: resident 398 retargeted to -1000002 after navigation failure.
+[2026-03-14 23:46:17] RadiantNPCs: movement disabled for resident 398 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:46:17] RadiantNPCs: resident 475 configured shared-field movement toward target 328719 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:17] RadiantNPCs: resident 476 configured shared-field movement toward target 394255 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:17] RadiantNPCs: resident 325 configured shared-field movement toward target 132113 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:18] RadiantNPCs: resident 487 fell back to CPU shared field for target 262656.
+[2026-03-14 23:46:18] RadiantNPCs: resident 487 retargeted to 197632 after navigation failure.
+[2026-03-14 23:46:18] RadiantNPCs: movement disabled for resident 487 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:46:18] RadiantNPCs: resident 441 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-14 23:46:18] RadiantNPCs: resident 489 configured shared-field movement toward target 131849 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:19] RadiantNPCs: resident 442 configured shared-field movement toward target 197120 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:19] RadiantNPCs: resident 491 configured shared-field movement toward target 393992 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:19] RadiantNPCs: resident 493 configured shared-field movement toward target 66573 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:20] RadiantNPCs: resident 440 configured shared-field movement toward target 393988 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:20] RadiantNPCs: resident 482 configured shared-field movement toward target 393994 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:21] RadiantNPCs: resident 483 configured shared-field movement toward target 131591 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:21] RadiantNPCs: resident 377 configured shared-field movement toward target 197645 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:21] RadiantNPCs: resident 478 configured shared-field movement toward target 262915 (state=Shopping, source=GPU).
+[2026-03-14 23:46:22] RadiantNPCs: resident 389 configured shared-field movement toward target 65796 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:22] RadiantNPCs: resident 390 configured shared-field movement toward target 131329 (state=Shopping, source=GPU).
+[2026-03-14 23:46:23] RadiantNPCs: resident 480 configured shared-field movement toward target 393989 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:24] RadiantNPCs: resident 495 configured shared-field movement toward target 197385 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:24] RadiantNPCs: resident 497 configured shared-field movement toward target 65792 (state=Shopping, source=GPU).
+[2026-03-14 23:46:24] RadiantNPCs: resident 503 reached target building 393739 in state ExteriorWander and was sheltered indoors.
+[2026-03-14 23:46:26] RadiantNPCs: resident 405 configured shared-field movement toward target 328720 (state=Shopping, source=GPU).
+[2026-03-14 23:46:26] RadiantNPCs: resident 406 configured shared-field movement toward target 262915 (state=Shopping, source=GPU).
+[2026-03-14 23:46:26] RadiantNPCs: resident 411 configured shared-field movement toward target 328207 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:26] RadiantNPCs: resident 412 configured shared-field movement toward target 393732 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:26] RadiantNPCs: resident 474 configured shared-field movement toward target 131857 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:26] RadiantNPCs: resident 499 configured shared-field movement toward target 328706 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:26] RadiantNPCs: resident 500 configured shared-field movement toward target 197633 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:27] RadiantNPCs: resident 502 configured shared-field movement toward target 393735 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:27] RadiantNPCs: resident 432 configured shared-field movement toward target 393485 (state=Shopping, source=GPU).
+[2026-03-14 23:46:27] RadiantNPCs: resident 505 configured shared-field movement toward target 196864 (state=Shopping, source=GPU).
+[2026-03-14 23:46:27] RadiantNPCs: resident 506 configured shared-field movement toward target 393474 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:27] RadiantNPCs: resident 409 configured shared-field movement toward target 328460 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:27] RadiantNPCs: resident 423 configured shared-field movement toward target 393731 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:27] RadiantNPCs: resident 417 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-14 23:46:27] RadiantNPCs: resident 410 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-14 23:46:28] RadiantNPCs: resident 467 configured shared-field movement toward target 263171 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:28] RadiantNPCs: resident 513 configured shared-field movement toward target 197383 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:28] RadiantNPCs: resident 374 configured shared-field movement toward target 131857 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:28] RadiantNPCs: resident 413 configured shared-field movement toward target 131330 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:29] RadiantNPCs: resident 484 configured shared-field movement toward target 393734 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:29] RadiantNPCs: resident 516 fell back to CPU shared field for target 65810.
+[2026-03-14 23:46:29] RadiantNPCs: resident 521 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:46:29] RadiantNPCs: resident 337 configured shared-field movement toward target 394257 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:29] RadiantNPCs: resident 328 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:46:30] RadiantNPCs: resident 418 configured shared-field movement toward target 66060 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:30] RadiantNPCs: resident 386 configured shared-field movement toward target 262917 (state=Shopping, source=GPU).
+[2026-03-14 23:46:30] RadiantNPCs: resident 414 configured shared-field movement toward target 65801 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:30] RadiantNPCs: resident 469 configured shared-field movement toward target 197632 (state=Shopping, source=GPU).
+[2026-03-14 23:46:30] RadiantNPCs: resident 472 configured shared-field movement toward target 131857 (state=Shopping, source=GPU).
+[2026-03-14 23:46:30] RadiantNPCs: resident 473 configured shared-field movement toward target 66319 (state=Shopping, source=GPU).
+[2026-03-14 23:46:30] RadiantNPCs: resident 323 configured shared-field movement toward target 131600 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:30] RadiantNPCs: resident 403 configured shared-field movement toward target 66311 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:31] RadiantNPCs: resident 326 configured shared-field movement toward target 327942 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:31] RadiantNPCs: resident 320 configured shared-field movement toward target 394256 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:31] RadiantNPCs: resident 416 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-14 23:46:31] RadiantNPCs: resident 531 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:46:31] RadiantNPCs: resident 399 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-14 23:46:31] RadiantNPCs: resident 420 configured shared-field movement toward target 328193 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:31] RadiantNPCs: resident 422 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:46:31] RadiantNPCs: resident 424 configured shared-field movement toward target 393728 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:32] RadiantNPCs: resident 427 configured shared-field movement toward target 328198 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:32] RadiantNPCs: resident 435 configured shared-field movement toward target 131329 (state=Shopping, source=GPU).
+[2026-03-14 23:46:32] RadiantNPCs: resident 436 configured shared-field movement toward target 132114 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:32] RadiantNPCs: resident 486 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-14 23:46:35] RadiantNPCs: resident 324 configured shared-field movement toward target 132104 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:35] RadiantNPCs: resident 378 configured shared-field movement toward target 131857 (state=Shopping, source=GPU).
+[2026-03-14 23:46:35] RadiantNPCs: resident 379 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-14 23:46:35] RadiantNPCs: resident 332 configured shared-field movement toward target 328204 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:40] RadiantNPCs: resident 301 fell back to CPU shared field for target 132105.
+[2026-03-14 23:46:40] RadiantNPCs: resident 301 retargeted to 65807 after navigation failure.
+[2026-03-14 23:46:40] RadiantNPCs: movement disabled for resident 301 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:46:40] RadiantNPCs: resident 317 fell back to CPU shared field for target 393472.
+[2026-03-14 23:46:40] RadiantNPCs: resident 317 retargeted to 66569 after navigation failure.
+[2026-03-14 23:46:40] RadiantNPCs: movement disabled for resident 317 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:46:41] RadiantNPCs: resident 318 configured shared-field movement toward target 328718 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:41] RadiantNPCs: resident 343 fell back to CPU shared field for target 66560.
+[2026-03-14 23:46:41] RadiantNPCs: resident 343 retargeted to 328720 after navigation failure.
+[2026-03-14 23:46:41] RadiantNPCs: resident 343 configured shared-field movement toward target 328720 (state=Shopping, source=CPU).
+[2026-03-14 23:46:41] RadiantNPCs: resident 344 fell back to CPU shared field for target -1000009.
+[2026-03-14 23:46:41] RadiantNPCs: resident 344 retargeted to -1000008 after navigation failure.
+[2026-03-14 23:46:42] RadiantNPCs: resident 383 fell back to CPU shared field for target 66319.
+[2026-03-14 23:46:42] RadiantNPCs: resident 383 retargeted to 393998 after navigation failure.
+[2026-03-14 23:46:42] RadiantNPCs: movement disabled for resident 383 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:46:42] RadiantNPCs: resident 384 fell back to CPU shared field for target 262916.
+[2026-03-14 23:46:45] RadiantNPCs: resident 340 configured shared-field movement toward target 328196 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:46] RadiantNPCs: resident 341 configured shared-field movement toward target 328451 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:46] RadiantNPCs: resident 306 configured shared-field movement toward target 131842 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:48] RadiantNPCs: resident 330 configured shared-field movement toward target 393998 (state=Shopping, source=GPU).
+[2026-03-14 23:46:48] RadiantNPCs: resident 385 configured shared-field movement toward target 131846 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:46:49] RadiantNPCs: resident 483 configured shared-field movement toward target 131591 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:06] RadiantNPCs: resident 495 fell back to CPU shared field for target 197385.
+[2026-03-14 23:47:10] RadiantNPCs: resident 504 reached target building 393738 in state ExteriorWander and was sheltered indoors.
+[2026-03-14 23:47:10] RadiantNPCs: resident 411 configured shared-field movement toward target 328207 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:14] RadiantNPCs: resident 522 reached target building 393990 in state ExteriorWander and was sheltered indoors.
+[2026-03-14 23:47:14] RadiantNPCs: resident 412 configured shared-field movement toward target 393732 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:18] RadiantNPCs: resident 409 configured shared-field movement toward target 328460 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:18] RadiantNPCs: resident 417 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-14 23:47:18] RadiantNPCs: resident 410 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-14 23:47:18] RadiantNPCs: resident 374 configured shared-field movement toward target 131857 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:19] RadiantNPCs: resident 413 configured shared-field movement toward target 131330 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:19] RadiantNPCs: resident 484 configured shared-field movement toward target 393734 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:19] RadiantNPCs: resident 521 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:47:21] RadiantNPCs: resident 429 configured shared-field movement toward target 197641 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:25] RadiantNPCs: resident 414 configured shared-field movement toward target 65801 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:25] RadiantNPCs: resident 469 configured shared-field movement toward target 197632 (state=Shopping, source=GPU).
+[2026-03-14 23:47:26] RadiantNPCs: resident 473 configured shared-field movement toward target 66319 (state=Shopping, source=GPU).
+[2026-03-14 23:47:26] RadiantNPCs: resident 403 configured shared-field movement toward target 66311 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:26] RadiantNPCs: resident 321 configured shared-field movement toward target 328197 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:32] RadiantNPCs: resident 533 reached target building 328455 in state ExteriorWander and was sheltered indoors.
+[2026-03-14 23:47:35] RadiantNPCs: resident 507 fell back to CPU shared field for target 393998.
+[2026-03-14 23:47:37] RadiantNPCs: resident 511 fell back to CPU shared field for target 393483.
+[2026-03-14 23:47:42] RadiantNPCs: schedule summary for Daggerfall/Ipshead at 11:00 - home=161, wander=209, shop=143, visit=0, tavern=0, patrol=23.
+[2026-03-14 23:47:42] RadiantNPCs: set max exterior resident population to 64 for MapID=1170417075.
+[2026-03-14 23:47:42] RadiantNPCs: resident 511 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-14 23:47:42] RadiantNPCs: resident 411 configured shared-field movement toward target 328720 (state=Shopping, source=GPU).
+[2026-03-14 23:47:42] RadiantNPCs: resident 507 configured shared-field movement toward target 131328 (state=Shopping, source=GPU).
+[2026-03-14 23:47:43] RadiantNPCs: resident 512 configured shared-field movement toward target 262915 (state=Shopping, source=GPU).
+[2026-03-14 23:47:43] RadiantNPCs: resident 515 configured shared-field movement toward target 393998 (state=Shopping, source=GPU).
+[2026-03-14 23:47:43] RadiantNPCs: resident 520 configured shared-field movement toward target 132101 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:43] RadiantNPCs: resident 518 fell back to CPU shared field for target 394245.
+[2026-03-14 23:47:43] RadiantNPCs: resident 518 retargeted to 66059 after navigation failure.
+[2026-03-14 23:47:43] RadiantNPCs: resident 518 configured shared-field movement toward target 66059 (state=AtHome, source=CPU).
+[2026-03-14 23:47:44] RadiantNPCs: resident 412 configured shared-field movement toward target 131328 (state=Shopping, source=GPU).
+[2026-03-14 23:47:44] RadiantNPCs: resident 524 fell back to CPU shared field for target 196864.
+[2026-03-14 23:47:44] RadiantNPCs: resident 524 retargeted to 132114 after navigation failure.
+[2026-03-14 23:47:44] RadiantNPCs: resident 524 configured shared-field movement toward target 132114 (state=Shopping, source=CPU).
+[2026-03-14 23:47:44] RadiantNPCs: resident 525 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-14 23:47:44] RadiantNPCs: resident 529 fell back to CPU shared field for target 262409.
+[2026-03-14 23:47:44] RadiantNPCs: resident 529 retargeted to 66574 after navigation failure.
+[2026-03-14 23:47:44] RadiantNPCs: movement disabled for resident 529 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:47:45] RadiantNPCs: resident 526 configured shared-field movement toward target 393991 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:45] RadiantNPCs: resident 527 configured shared-field movement toward target 328456 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:45] RadiantNPCs: resident 532 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-14 23:47:45] RadiantNPCs: resident 530 configured shared-field movement toward target -1000003 (state=Patrol, source=GPU).
+[2026-03-14 23:47:45] RadiantNPCs: resident 533 configured shared-field movement toward target 262403 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:45] RadiantNPCs: resident 535 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:47:45] RadiantNPCs: resident 536 configured shared-field movement toward target 394257 (state=AtHome, source=GPU).
+[2026-03-14 23:47:45] RadiantNPCs: resident 491 configured shared-field movement toward target 327942 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:46] RadiantNPCs: resident 434 configured shared-field movement toward target 262667 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:46] RadiantNPCs: resident 489 configured shared-field movement toward target 132104 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:46] RadiantNPCs: resident 495 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-14 23:47:47] RadiantNPCs: resident 409 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-14 23:47:47] RadiantNPCs: movement disabled for resident 499 because no free reachable start tile was available.
+[2026-03-14 23:47:47] RadiantNPCs: resident 502 configured shared-field movement toward target 328720 (state=Shopping, source=GPU).
+[2026-03-14 23:47:48] RadiantNPCs: resident 435 configured shared-field movement toward target 328718 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:48] RadiantNPCs: resident 531 configured shared-field movement toward target 196878 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:48] RadiantNPCs: resident 399 configured shared-field movement toward target 328449 (state=AtHome, source=GPU).
+[2026-03-14 23:47:50] RadiantNPCs: resident 521 configured shared-field movement toward target 394247 (state=AtHome, source=GPU).
+[2026-03-14 23:47:50] RadiantNPCs: resident 316 configured shared-field movement toward target 328457 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:50] RadiantNPCs: resident 327 fell back to CPU shared field for target -1000002.
+[2026-03-14 23:47:50] RadiantNPCs: resident 327 retargeted to -1000003 after navigation failure.
+[2026-03-14 23:47:50] RadiantNPCs: movement disabled for resident 327 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:47:50] RadiantNPCs: resident 335 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-14 23:47:51] RadiantNPCs: resident 338 fell back to CPU shared field for target 65793.
+[2026-03-14 23:47:51] RadiantNPCs: resident 338 retargeted to 66306 after navigation failure.
+[2026-03-14 23:47:51] RadiantNPCs: movement disabled for resident 338 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:47:51] RadiantNPCs: resident 387 configured shared-field movement toward target 263168 (state=Shopping, source=GPU).
+[2026-03-14 23:47:51] RadiantNPCs: resident 391 configured shared-field movement toward target 131857 (state=Shopping, source=GPU).
+[2026-03-14 23:47:51] RadiantNPCs: resident 412 fell back to CPU shared field for target 131328.
+[2026-03-14 23:47:52] RadiantNPCs: resident 415 configured shared-field movement toward target 263173 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:52] RadiantNPCs: resident 466 fell back to CPU shared field for target 132107.
+[2026-03-14 23:47:52] RadiantNPCs: resident 466 retargeted to 66050 after navigation failure.
+[2026-03-14 23:47:52] RadiantNPCs: resident 466 configured shared-field movement toward target 66050 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:47:52] RadiantNPCs: resident 468 configured shared-field movement toward target 394241 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:53] RadiantNPCs: resident 470 configured shared-field movement toward target 263172 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:53] RadiantNPCs: resident 477 configured shared-field movement toward target 394253 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:53] RadiantNPCs: resident 485 fell back to CPU shared field for target 327940.
+[2026-03-14 23:47:54] RadiantNPCs: resident 485 retargeted to 131857 after navigation failure.
+[2026-03-14 23:47:54] RadiantNPCs: resident 485 configured shared-field movement toward target 131857 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:47:54] RadiantNPCs: resident 508 configured shared-field movement toward target 262919 (state=Shopping, source=GPU).
+[2026-03-14 23:47:54] RadiantNPCs: resident 510 configured shared-field movement toward target 196871 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:54] RadiantNPCs: movement disabled for resident 528 because no free reachable start tile was available.
+[2026-03-14 23:47:55] RadiantNPCs: resident 504 configured shared-field movement toward target 263168 (state=Shopping, source=GPU).
+[2026-03-14 23:47:55] RadiantNPCs: resident 522 configured shared-field movement toward target 131840 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:55] RadiantNPCs: resident 536 fell back to CPU shared field for target 394257.
+[2026-03-14 23:47:55] RadiantNPCs: resident 438 configured shared-field movement toward target 328203 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:47:56] RadiantNPCs: resident 489 fell back to CPU shared field for target 132104.
+[2026-03-14 23:47:56] RadiantNPCs: resident 532 fell back to CPU shared field for target 131851.
+[2026-03-14 23:48:02] RadiantNPCs: resident 522 fell back to CPU shared field for target 131840.
+[2026-03-14 23:48:03] RadiantNPCs: resident 399 fell back to CPU shared field for target 328449.
+[2026-03-14 23:48:04] RadiantNPCs: resident 382 configured shared-field movement toward target 197384 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:48:05] RadiantNPCs: resident 471 configured shared-field movement toward target 65795 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:48:05] RadiantNPCs: resident 531 fell back to CPU shared field for target 196878.
+[2026-03-14 23:48:13] RadiantNPCs: resident 521 fell back to CPU shared field for target 394247.
+[2026-03-14 23:48:13] RadiantNPCs: resident 526 fell back to CPU shared field for target 393991.
+[2026-03-14 23:48:14] RadiantNPCs: resident 434 fell back to CPU shared field for target 262667.
+[2026-03-14 23:48:16] RadiantNPCs: resident 491 fell back to CPU shared field for target 327942.
+[2026-03-14 23:48:17] RadiantNPCs: resident 533 fell back to CPU shared field for target 262403.
+[2026-03-14 23:48:24] RadiantNPCs: resident 520 fell back to CPU shared field for target 132101.
+[2026-03-14 23:48:29] RadiantNPCs: resident 507 fell back to CPU shared field for target 131328.
+[2026-03-14 23:48:29] RadiantNPCs: resident 512 fell back to CPU shared field for target 262915.
+[2026-03-14 23:48:31] RadiantNPCs: resident 535 fell back to CPU shared field for target 197376.
+[2026-03-14 23:48:34] RadiantNPCs: resident 435 fell back to CPU shared field for target 328718.
+[2026-03-14 23:48:42] RadiantNPCs: resident 525 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-14 23:48:43] RadiantNPCs: resident 318 fell back to CPU shared field for target 328711.
+[2026-03-14 23:48:43] RadiantNPCs: resident 318 retargeted to 66054 after navigation failure.
+[2026-03-14 23:48:43] RadiantNPCs: resident 318 configured shared-field movement toward target 66054 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:48:43] RadiantNPCs: resident 343 configured shared-field movement toward target 132108 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:48:47] RadiantNPCs: resident 516 reached target building 393984 in state ExteriorWander and was sheltered indoors.
+[2026-03-14 23:48:56] RadiantNPCs: resident 515 reached target building 393998 in state Shopping and was sheltered indoors.
+[2026-03-14 23:48:56] RadiantNPCs: resident 322 configured shared-field movement toward target 327947 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:48:57] RadiantNPCs: resident 385 configured shared-field movement toward target 262916 (state=Shopping, source=GPU).
+[2026-03-14 23:48:57] RadiantNPCs: resident 478 configured shared-field movement toward target 197632 (state=Shopping, source=GPU).
+[2026-03-14 23:48:57] RadiantNPCs: resident 389 configured shared-field movement toward target 262919 (state=Shopping, source=GPU).
+[2026-03-14 23:48:57] RadiantNPCs: resident 480 configured shared-field movement toward target 262916 (state=Shopping, source=GPU).
+[2026-03-14 23:49:00] RadiantNPCs: resident 409 fell back to CPU shared field for target 132114.
+[2026-03-14 23:49:05] RadiantNPCs: resident 495 fell back to CPU shared field for target 328448.
+[2026-03-14 23:49:08] RadiantNPCs: resident 425 reached target building 393998 in state Shopping and was sheltered indoors.
+[2026-03-14 23:49:08] RadiantNPCs: resident 511 fell back to CPU shared field for target 132114.
+[2026-03-14 23:49:08] RadiantNPCs: resident 521 reached target building 394247 in state AtHome and was sheltered indoors.
+[2026-03-14 23:49:09] RadiantNPCs: resident 410 configured shared-field movement toward target 393485 (state=Shopping, source=GPU).
+[2026-03-14 23:49:11] RadiantNPCs: resident 438 fell back to CPU shared field for target 328203.
+[2026-03-14 23:49:18] RadiantNPCs: resident 527 reached target building 328456 in state ExteriorWander and was sheltered indoors.
+[2026-03-14 23:49:18] RadiantNPCs: resident 413 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-14 23:49:20] RadiantNPCs: resident 531 configured shared-field movement toward target 196878 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:49:20] RadiantNPCs: resident 328 configured shared-field movement toward target 328196 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:49:20] RadiantNPCs: resident 418 configured shared-field movement toward target 328705 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:49:23] RadiantNPCs: resident 411 fell back to CPU shared field for target 328720.
+[2026-03-14 23:49:23] RadiantNPCs: resident 411 retargeted to 132114 after navigation failure.
+[2026-03-14 23:49:24] RadiantNPCs: resident 502 fell back to CPU shared field for target 328720.
+[2026-03-14 23:49:28] RadiantNPCs: resident 524 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-14 23:49:42] RadiantNPCs: resident 399 reached target building 328449 in state AtHome and was sheltered indoors.
+[2026-03-14 23:49:42] RadiantNPCs: resident 535 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:49:42] RadiantNPCs: resident 429 configured shared-field movement toward target 328710 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:49:43] RadiantNPCs: resident 414 configured shared-field movement toward target 197383 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:49:43] RadiantNPCs: resident 419 configured shared-field movement toward target 197391 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:49:43] RadiantNPCs: resident 469 configured shared-field movement toward target 197636 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:49:45] RadiantNPCs: resident 438 reached target building 328203 in state ExteriorWander and was sheltered indoors.
+[2026-03-14 23:50:14] RadiantNPCs: resident 411 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-14 23:50:18] RadiantNPCs: resident 409 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-14 23:50:18] RadiantNPCs: resident 422 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-14 23:50:32] RadiantNPCs: resident 530 configured shared-field movement toward target -1000003 (state=Patrol, source=GPU).
+[2026-03-14 23:50:32] RadiantNPCs: resident 436 configured shared-field movement toward target 196865 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:51:08] RadiantNPCs: resident 422 fell back to CPU shared field for target 328448.
+[2026-03-14 23:52:42] RadiantNPCs: resident 533 configured shared-field movement toward target 262403 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:42] RadiantNPCs: resident 415 configured shared-field movement toward target 263173 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:42] RadiantNPCs: resident 468 configured shared-field movement toward target 394241 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:42] RadiantNPCs: resident 508 configured shared-field movement toward target 262919 (state=Shopping, source=GPU).
+[2026-03-14 23:52:42] RadiantNPCs: resident 510 configured shared-field movement toward target 196871 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:42] RadiantNPCs: resident 504 configured shared-field movement toward target 263168 (state=Shopping, source=GPU).
+[2026-03-14 23:52:42] RadiantNPCs: resident 382 configured shared-field movement toward target 197384 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:42] RadiantNPCs: resident 471 configured shared-field movement toward target 65795 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:43] RadiantNPCs: resident 533 fell back to CPU shared field for target 262403.
+[2026-03-14 23:52:44] RadiantNPCs: resident 318 configured shared-field movement toward target 66054 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:44] RadiantNPCs: resident 343 configured shared-field movement toward target 132108 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:45] RadiantNPCs: resident 344 fell back to CPU shared field for target -1000008.
+[2026-03-14 23:52:45] RadiantNPCs: resident 344 retargeted to -1000007 after navigation failure.
+[2026-03-14 23:52:45] RadiantNPCs: movement disabled for resident 344 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:52:45] RadiantNPCs: movement disabled for resident 384 because no free reachable start tile was available.
+[2026-03-14 23:52:45] RadiantNPCs: resident 478 configured shared-field movement toward target 197632 (state=Shopping, source=GPU).
+[2026-03-14 23:52:45] RadiantNPCs: resident 517 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-14 23:52:46] RadiantNPCs: resident 371 configured shared-field movement toward target 393734 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:46] RadiantNPCs: resident 405 configured shared-field movement toward target 393988 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:46] RadiantNPCs: resident 406 configured shared-field movement toward target 131585 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:46] RadiantNPCs: resident 474 configured shared-field movement toward target 197377 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:46] RadiantNPCs: resident 505 configured shared-field movement toward target 262914 (state=Shopping, source=GPU).
+[2026-03-14 23:52:46] RadiantNPCs: resident 410 configured shared-field movement toward target 393485 (state=Shopping, source=GPU).
+[2026-03-14 23:52:46] RadiantNPCs: resident 467 configured shared-field movement toward target 196872 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:46] RadiantNPCs: resident 413 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-14 23:52:46] RadiantNPCs: resident 339 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-14 23:52:46] RadiantNPCs: resident 336 configured shared-field movement toward target 131855 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:49] RadiantNPCs: resident 338 configured shared-field movement toward target 131842 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:50] RadiantNPCs: resident 391 configured shared-field movement toward target 131857 (state=Shopping, source=GPU).
+[2026-03-14 23:52:50] RadiantNPCs: resident 513 configured shared-field movement toward target 327943 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:50] RadiantNPCs: resident 466 configured shared-field movement toward target 66050 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:51] RadiantNPCs: schedule summary for Daggerfall/Ipshead at 12:00 - home=112, wander=270, shop=103, visit=22, tavern=0, patrol=29.
+[2026-03-14 23:52:51] RadiantNPCs: set max exterior resident population to 64 for MapID=1170417075.
+[2026-03-14 23:52:52] RadiantNPCs: resident 511 fell back to CPU shared field for target 394240.
+[2026-03-14 23:52:52] RadiantNPCs: resident 411 configured shared-field movement toward target 328717 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:52] RadiantNPCs: resident 507 configured shared-field movement toward target 328208 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:52] RadiantNPCs: resident 512 fell back to CPU shared field for target -1000008.
+[2026-03-14 23:52:53] RadiantNPCs: movement disabled for resident 520 because no free reachable start tile was available.
+[2026-03-14 23:52:53] RadiantNPCs: resident 518 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-14 23:52:53] RadiantNPCs: resident 412 configured shared-field movement toward target 328456 (state=AtHome, source=GPU).
+[2026-03-14 23:52:53] RadiantNPCs: resident 529 fell back to CPU shared field for target 394252.
+[2026-03-14 23:52:53] RadiantNPCs: resident 529 retargeted to 66568 after navigation failure.
+[2026-03-14 23:52:53] RadiantNPCs: movement disabled for resident 529 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:52:54] RadiantNPCs: resident 526 configured shared-field movement toward target 262657 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:54] RadiantNPCs: resident 532 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-14 23:52:54] RadiantNPCs: resident 508 fell back to CPU shared field for target 393996.
+[2026-03-14 23:52:54] RadiantNPCs: resident 508 retargeted to 66573 after navigation failure.
+[2026-03-14 23:52:54] RadiantNPCs: resident 508 configured shared-field movement toward target 66573 (state=AtHome, source=CPU).
+[2026-03-14 23:52:54] RadiantNPCs: resident 504 configured shared-field movement toward target 131856 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:54] RadiantNPCs: resident 536 configured shared-field movement toward target 262416 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:54] RadiantNPCs: resident 491 configured shared-field movement toward target 393988 (state=AtHome, source=GPU).
+[2026-03-14 23:52:55] RadiantNPCs: resident 485 configured shared-field movement toward target 66563 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:55] RadiantNPCs: resident 434 configured shared-field movement toward target 263176 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:55] RadiantNPCs: movement disabled for resident 489 because no free reachable start tile was available.
+[2026-03-14 23:52:55] RadiantNPCs: resident 495 configured shared-field movement toward target 66057 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:52:55] RadiantNPCs: resident 422 fell back to CPU shared field for target 197640.
+[2026-03-14 23:52:56] RadiantNPCs: resident 422 retargeted to 327953 after navigation failure.
+[2026-03-14 23:52:56] RadiantNPCs: movement disabled for resident 499 because no free reachable start tile was available.
+[2026-03-14 23:52:56] RadiantNPCs: resident 502 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-14 23:52:57] RadiantNPCs: resident 528 fell back to CPU shared field for target -1000005.
+[2026-03-14 23:52:57] RadiantNPCs: resident 528 retargeted to -1000004 after navigation failure.
+[2026-03-14 23:52:57] RadiantNPCs: movement disabled for resident 528 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:52:57] RadiantNPCs: resident 522 fell back to CPU shared field for target 394248.
+[2026-03-14 23:52:58] RadiantNPCs: resident 522 retargeted to 66052 after navigation failure.
+[2026-03-14 23:52:58] RadiantNPCs: movement disabled for resident 522 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:52:58] RadiantNPCs: movement disabled for resident 505 because no free reachable start tile was available.
+[2026-03-14 23:53:04] RadiantNPCs: resident 488 fell back to CPU shared field for target 132110.
+[2026-03-14 23:53:04] RadiantNPCs: resident 523 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:53:05] RadiantNPCs: resident 534 fell back to CPU shared field for target 65800.
+[2026-03-14 23:53:05] RadiantNPCs: resident 534 retargeted to 65808 after navigation failure.
+[2026-03-14 23:53:05] RadiantNPCs: resident 534 configured shared-field movement toward target 65808 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:53:05] RadiantNPCs: resident 515 configured shared-field movement toward target 131589 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:06] RadiantNPCs: resident 245 fell back to CPU shared field for target 393739.
+[2026-03-14 23:53:06] RadiantNPCs: resident 245 retargeted to 65796 after navigation failure.
+[2026-03-14 23:53:06] RadiantNPCs: resident 245 configured shared-field movement toward target 65796 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:53:06] RadiantNPCs: resident 253 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:53:06] RadiantNPCs: resident 256 configured shared-field movement toward target 262918 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:07] RadiantNPCs: resident 393 configured shared-field movement toward target 327951 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:07] RadiantNPCs: resident 220 configured shared-field movement toward target 262915 (state=Shopping, source=GPU).
+[2026-03-14 23:53:07] RadiantNPCs: resident 516 configured shared-field movement toward target 65799 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:07] RadiantNPCs: resident 399 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-14 23:53:08] RadiantNPCs: resident 425 configured shared-field movement toward target 131342 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:08] RadiantNPCs: resident 398 configured shared-field movement toward target 328719 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:08] RadiantNPCs: resident 239 configured shared-field movement toward target 393730 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:09] RadiantNPCs: resident 315 configured shared-field movement toward target 327949 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:09] RadiantNPCs: resident 324 configured shared-field movement toward target 328450 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:09] RadiantNPCs: resident 487 configured shared-field movement toward target 131328 (state=Shopping, source=GPU).
+[2026-03-14 23:53:09] RadiantNPCs: resident 441 configured shared-field movement toward target 65802 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:11] RadiantNPCs: resident 425 fell back to CPU shared field for target 131342.
+[2026-03-14 23:53:11] RadiantNPCs: resident 521 configured shared-field movement toward target 262919 (state=Shopping, source=GPU).
+[2026-03-14 23:53:14] RadiantNPCs: resident 259 configured shared-field movement toward target 66561 (state=SocialVisit, source=GPU).
+[2026-03-14 23:53:14] RadiantNPCs: resident 297 configured shared-field movement toward target 131330 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:14] RadiantNPCs: resident 298 configured shared-field movement toward target 197120 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:14] RadiantNPCs: resident 380 configured shared-field movement toward target 328715 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:15] RadiantNPCs: resident 326 configured shared-field movement toward target 132104 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:15] RadiantNPCs: resident 475 configured shared-field movement toward target 66565 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:16] RadiantNPCs: resident 476 configured shared-field movement toward target 394243 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:16] RadiantNPCs: resident 325 fell back to CPU shared field for target 327937.
+[2026-03-14 23:53:19] RadiantNPCs: resident 319 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-14 23:53:23] RadiantNPCs: resident 413 fell back to CPU shared field for target 262411.
+[2026-03-14 23:53:23] RadiantNPCs: resident 413 retargeted to 131329 after navigation failure.
+[2026-03-14 23:53:23] RadiantNPCs: resident 413 configured shared-field movement toward target 131329 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:53:24] RadiantNPCs: resident 484 configured shared-field movement toward target 394244 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:24] RadiantNPCs: resident 339 configured shared-field movement toward target 393998 (state=Shopping, source=GPU).
+[2026-03-14 23:53:29] RadiantNPCs: resident 524 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-14 23:53:33] RadiantNPCs: resident 516 fell back to CPU shared field for target 65799.
+[2026-03-14 23:53:40] RadiantNPCs: resident 524 fell back to CPU shared field for target 131851.
+[2026-03-14 23:53:40] RadiantNPCs: resident 504 fell back to CPU shared field for target 131856.
+[2026-03-14 23:53:41] RadiantNPCs: resident 229 configured shared-field movement toward target 328451 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:46] RadiantNPCs: movement disabled for resident 499 because no free reachable start tile was available.
+[2026-03-14 23:53:46] RadiantNPCs: resident 504 configured shared-field movement toward target 131856 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:47] RadiantNPCs: resident 435 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-14 23:53:47] RadiantNPCs: resident 497 fell back to CPU shared field for target -1000000.
+[2026-03-14 23:53:51] RadiantNPCs: resident 466 fell back to CPU shared field for target 394248.
+[2026-03-14 23:53:51] RadiantNPCs: resident 466 retargeted to 197646 after navigation failure.
+[2026-03-14 23:53:51] RadiantNPCs: movement disabled for resident 466 because the shared navigation field was unusable at the current position.
+[2026-03-14 23:53:51] RadiantNPCs: resident 329 configured shared-field movement toward target 197647 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:51] RadiantNPCs: resident 342 configured shared-field movement toward target 262914 (state=Shopping, source=GPU).
+[2026-03-14 23:53:53] RadiantNPCs: resident 518 fell back to CPU shared field for target 262912.
+[2026-03-14 23:53:53] RadiantNPCs: resident 400 fell back to CPU shared field for target -1000000.
+[2026-03-14 23:53:54] RadiantNPCs: resident 421 configured shared-field movement toward target 393483 (state=SocialVisit, source=GPU).
+[2026-03-14 23:53:54] RadiantNPCs: resident 430 configured shared-field movement toward target 131587 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:53:55] RadiantNPCs: resident 492 configured shared-field movement toward target 262914 (state=Shopping, source=GPU).
+[2026-03-14 23:53:57] RadiantNPCs: resident 408 configured shared-field movement toward target 394255 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:00] RadiantNPCs: resident 406 fell back to CPU shared field for target -1000006.
+[2026-03-14 23:54:00] RadiantNPCs: resident 406 retargeted to -1000005 after navigation failure.
+[2026-03-14 23:54:01] RadiantNPCs: resident 249 configured shared-field movement toward target 197391 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:01] RadiantNPCs: resident 505 configured shared-field movement toward target 131600 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:02] RadiantNPCs: resident 506 configured shared-field movement toward target 131600 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:03] RadiantNPCs: resident 525 reached target building 262915 in state Shopping and was sheltered indoors.
+[2026-03-14 23:54:04] RadiantNPCs: resident 408 fell back to CPU shared field for target 394255.
+[2026-03-14 23:54:06] RadiantNPCs: resident 503 fell back to CPU shared field for target 66052.
+[2026-03-14 23:54:06] RadiantNPCs: resident 503 retargeted to 131588 after navigation failure.
+[2026-03-14 23:54:06] RadiantNPCs: resident 503 configured shared-field movement toward target 131588 (state=ExteriorWander, source=CPU).
+[2026-03-14 23:54:08] RadiantNPCs: resident 425 configured shared-field movement toward target 131342 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:08] RadiantNPCs: resident 242 configured shared-field movement toward target 131596 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:14] RadiantNPCs: resident 434 fell back to CPU shared field for target 263176.
+[2026-03-14 23:54:15] RadiantNPCs: resident 254 configured shared-field movement toward target 131854 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:16] RadiantNPCs: resident 412 fell back to CPU shared field for target 328456.
+[2026-03-14 23:54:19] RadiantNPCs: resident 526 fell back to CPU shared field for target 262657.
+[2026-03-14 23:54:29] RadiantNPCs: resident 409 reached target building 262915 in state Shopping and was sheltered indoors.
+[2026-03-14 23:54:45] RadiantNPCs: resident 437 reached target building 328720 in state Shopping and was sheltered indoors.
+[2026-03-14 23:54:47] RadiantNPCs: resident 115 configured shared-field movement toward target 66062 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:48] RadiantNPCs: resident 117 configured shared-field movement toward target 393735 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:48] RadiantNPCs: resident 118 configured shared-field movement toward target 131848 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:48] RadiantNPCs: resident 151 configured shared-field movement toward target 328201 (state=SocialVisit, source=GPU).
+[2026-03-14 23:54:49] RadiantNPCs: resident 157 configured shared-field movement toward target 262657 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:50] RadiantNPCs: resident 490 configured shared-field movement toward target 393998 (state=Shopping, source=GPU).
+[2026-03-14 23:54:51] RadiantNPCs: resident 527 configured shared-field movement toward target 66050 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:54] RadiantNPCs: resident 326 configured shared-field movement toward target 132104 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:55] RadiantNPCs: resident 147 configured shared-field movement toward target 131849 (state=ExteriorWander, source=GPU).
+[2026-03-14 23:54:55] RadiantNPCs: resident 319 reached target building 262912 in state Shopping and was sheltered indoors.
+[2026-03-14 23:54:56] RadiantNPCs: resident 492 configured shared-field movement toward target 262914 (state=Shopping, source=GPU).
+[2026-03-15 01:38:08] RadiantNPCs: initialized mod 'RadiantNPCs' v0.2.0.
+[2026-03-15 01:38:17] RadiantNPCs: restored save data for 0 locations.
+[2026-03-15 01:38:31] RadiantNPCs: household breakdown for Daggerfall/Ipshead: House1=1, House2=299, House3=27, House4=0, totalBedCapacity=536, avgResidentsPerHousehold=1,64.
+[2026-03-15 01:38:31] RadiantNPCs: bed detection for Daggerfall/Ipshead: housesWithDetectedBeds=319, housesUsingFallbackCapacity=8, fallbackSamples=[131334, 197643, 197644, 262404, 262414, 393728, 393989, 393996].
+[2026-03-15 01:38:31] RadiantNPCs: resident generation for Daggerfall/Ipshead completed in 100 ms.
+[2026-03-15 01:38:31] RadiantNPCs: created resident pool for Daggerfall/Ipshead (MapID=1170417075, households=327, residents=536).
+[2026-03-15 01:38:31] RadiantNPCs: prepared shared navigation context for MapID=1170417075 (patrolAnchors=12, gpuFields=True).
+[2026-03-15 01:38:31] RadiantNPCs: schedule summary for Daggerfall/Ipshead at 10:00 - home=148, wander=233, shop=135, visit=0, tavern=0, patrol=20.
+[2026-03-15 01:38:31] RadiantNPCs: set max exterior resident population to 50 for MapID=1170417075.
+[2026-03-15 01:38:31] RadiantNPCs: assigned resident 'Mordyrick Mastersley' (ResidentID=399, HouseholdID=245, Home=328449, Target=132114, Role=Civilian, State=Shopping) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:31] RadiantNPCs: resident 399 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-15 01:38:32] RadiantNPCs: assigned resident 'Andistair Woodham' (ResidentID=420, HouseholdID=258, Home=328705, Target=328193, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:32] RadiantNPCs: resident 420 configured shared-field movement toward target 328193 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:32] RadiantNPCs: assigned resident 'Trististyr Copperford' (ResidentID=422, HouseholdID=259, Home=328706, Target=197376, Role=Civilian, State=Shopping) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:32] RadiantNPCs: resident 422 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-15 01:38:32] RadiantNPCs: assigned resident 'Agristair Moorham' (ResidentID=424, HouseholdID=261, Home=328708, Target=393728, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:32] RadiantNPCs: resident 424 configured shared-field movement toward target 393728 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:32] RadiantNPCs: assigned resident 'Ysausa Moorham' (ResidentID=425, HouseholdID=261, Home=328708, Target=393728, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:32] RadiantNPCs: resident 425 configured shared-field movement toward target 393728 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:32] RadiantNPCs: assigned resident 'Alabyrick Ashsley' (ResidentID=427, HouseholdID=262, Home=328709, Target=328198, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:32] RadiantNPCs: resident 427 configured shared-field movement toward target 328198 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:33] RadiantNPCs: assigned resident 'Rodistyr Kingford' (ResidentID=407, HouseholdID=249, Home=328453, Target=262403, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:33] RadiantNPCs: resident 407 configured shared-field movement toward target 262403 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:33] RadiantNPCs: assigned resident 'Peryctor Ashsley' (ResidentID=429, HouseholdID=262, Home=328709, Target=197641, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:33] RadiantNPCs: resident 429 configured shared-field movement toward target 197641 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:33] RadiantNPCs: assigned resident 'Vyctabyth Greensley' (ResidentID=434, HouseholdID=265, Home=328712, Target=328205, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:33] RadiantNPCs: resident 434 configured shared-field movement toward target 328205 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:33] RadiantNPCs: assigned resident 'Chrystona Moorford' (ResidentID=435, HouseholdID=266, Home=328713, Target=131329, Role=Civilian, State=Shopping) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:34] RadiantNPCs: resident 435 configured shared-field movement toward target 131329 (state=Shopping, source=GPU).
+[2026-03-15 01:38:34] RadiantNPCs: assigned resident 'Vannyn Mastersmith' (ResidentID=436, HouseholdID=267, Home=328715, Target=393733, Role=Civilian, State=ExteriorWander) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:34] RadiantNPCs: resident 436 fell back to CPU shared field for target 393733.
+[2026-03-15 01:38:34] RadiantNPCs: resident 436 retargeted to 132114 after navigation failure.
+[2026-03-15 01:38:34] RadiantNPCs: resident 436 configured shared-field movement toward target 132114 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:38:34] RadiantNPCs: assigned resident 'Bedyval Yeomcroft' (ResidentID=437, HouseholdID=268, Home=328716, Target=66560, Role=Civilian, State=Shopping) to exterior mobile NPC in MapID=1170417075.
+[2026-03-15 01:38:34] RadiantNPCs: resident 437 fell back to CPU shared field for target 66560.
+[2026-03-15 01:38:34] RadiantNPCs: resident 437 retargeted to 131851 after navigation failure.
+[2026-03-15 01:38:34] RadiantNPCs: movement disabled for resident 437 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:38:34] RadiantNPCs: suppressing further per-NPC assignment logs for MapID=1170417075.
+[2026-03-15 01:38:35] RadiantNPCs: resident 438 fell back to CPU shared field for target 66560.
+[2026-03-15 01:38:35] RadiantNPCs: resident 438 retargeted to 131857 after navigation failure.
+[2026-03-15 01:38:35] RadiantNPCs: movement disabled for resident 438 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:38:35] RadiantNPCs: resident 440 configured shared-field movement toward target 393988 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:35] RadiantNPCs: resident 441 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-15 01:38:35] RadiantNPCs: resident 442 configured shared-field movement toward target 197120 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:35] RadiantNPCs: resident 405 configured shared-field movement toward target 328720 (state=Shopping, source=GPU).
+[2026-03-15 01:38:36] RadiantNPCs: resident 406 configured shared-field movement toward target 328720 (state=Shopping, source=GPU).
+[2026-03-15 01:38:36] RadiantNPCs: resident 411 configured shared-field movement toward target 328207 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:36] RadiantNPCs: resident 412 configured shared-field movement toward target 328207 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:36] RadiantNPCs: resident 465 configured shared-field movement toward target 263168 (state=Shopping, source=GPU).
+[2026-03-15 01:38:37] RadiantNPCs: resident 471 configured shared-field movement toward target 393729 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:37] RadiantNPCs: resident 474 fell back to CPU shared field for target 327938.
+[2026-03-15 01:38:37] RadiantNPCs: resident 474 retargeted to 131857 after navigation failure.
+[2026-03-15 01:38:37] RadiantNPCs: movement disabled for resident 474 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:38:37] RadiantNPCs: resident 409 configured shared-field movement toward target 328460 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:38] RadiantNPCs: resident 432 configured shared-field movement toward target 393485 (state=Shopping, source=GPU).
+[2026-03-15 01:38:38] RadiantNPCs: resident 410 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-15 01:38:38] RadiantNPCs: resident 417 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-15 01:38:39] RadiantNPCs: resident 374 fell back to CPU shared field for target 393478.
+[2026-03-15 01:38:39] RadiantNPCs: resident 374 retargeted to 131857 after navigation failure.
+[2026-03-15 01:38:39] RadiantNPCs: resident 423 configured shared-field movement toward target 393731 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:39] RadiantNPCs: resident 467 configured shared-field movement toward target 263171 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:39] RadiantNPCs: resident 484 configured shared-field movement toward target 393734 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:39] RadiantNPCs: resident 486 fell back to CPU shared field for target 65809.
+[2026-03-15 01:38:39] RadiantNPCs: resident 486 retargeted to 132114 after navigation failure.
+[2026-03-15 01:38:39] RadiantNPCs: resident 486 configured shared-field movement toward target 132114 (state=Shopping, source=CPU).
+[2026-03-15 01:38:40] RadiantNPCs: resident 413 configured shared-field movement toward target 131330 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:40] RadiantNPCs: resident 489 configured shared-field movement toward target 131849 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:40] RadiantNPCs: resident 491 configured shared-field movement toward target 393992 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:40] RadiantNPCs: resident 493 fell back to CPU shared field for target 393736.
+[2026-03-15 01:38:41] RadiantNPCs: resident 493 retargeted to 66573 after navigation failure.
+[2026-03-15 01:38:41] RadiantNPCs: movement disabled for resident 493 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:38:41] RadiantNPCs: resident 494 fell back to CPU shared field for target 393736.
+[2026-03-15 01:38:41] RadiantNPCs: resident 494 retargeted to 65801 after navigation failure.
+[2026-03-15 01:38:41] RadiantNPCs: resident 494 configured shared-field movement toward target 65801 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:38:41] RadiantNPCs: resident 495 configured shared-field movement toward target 197385 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:41] RadiantNPCs: resident 339 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-15 01:38:42] RadiantNPCs: resident 418 fell back to CPU shared field for target 393477.
+[2026-03-15 01:38:42] RadiantNPCs: resident 418 retargeted to 66060 after navigation failure.
+[2026-03-15 01:38:42] RadiantNPCs: resident 418 configured shared-field movement toward target 66060 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:38:42] RadiantNPCs: resident 336 configured shared-field movement toward target 328200 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:42] RadiantNPCs: resident 337 configured shared-field movement toward target 328200 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:42] RadiantNPCs: resident 328 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-15 01:38:42] RadiantNPCs: resident 414 fell back to CPU shared field for target 393996.
+[2026-03-15 01:38:42] RadiantNPCs: resident 414 retargeted to 65801 after navigation failure.
+[2026-03-15 01:38:42] RadiantNPCs: resident 414 configured shared-field movement toward target 65801 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:38:43] RadiantNPCs: resident 386 configured shared-field movement toward target 262917 (state=Shopping, source=GPU).
+[2026-03-15 01:38:43] RadiantNPCs: resident 419 fell back to CPU shared field for target 393477.
+[2026-03-15 01:38:43] RadiantNPCs: resident 419 retargeted to 131600 after navigation failure.
+[2026-03-15 01:38:43] RadiantNPCs: resident 419 configured shared-field movement toward target 131600 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:38:43] RadiantNPCs: resident 473 configured shared-field movement toward target 131857 (state=Shopping, source=GPU).
+[2026-03-15 01:38:43] RadiantNPCs: resident 496 configured shared-field movement toward target 263176 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:44] RadiantNPCs: resident 498 configured shared-field movement toward target 65792 (state=Shopping, source=GPU).
+[2026-03-15 01:38:44] RadiantNPCs: resident 499 configured shared-field movement toward target 328706 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:44] RadiantNPCs: resident 500 configured shared-field movement toward target 328706 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:44] RadiantNPCs: resident 323 fell back to CPU shared field for target 263174.
+[2026-03-15 01:38:44] RadiantNPCs: resident 323 retargeted to 131600 after navigation failure.
+[2026-03-15 01:38:44] RadiantNPCs: resident 323 configured shared-field movement toward target 131600 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:38:44] RadiantNPCs: resident 403 configured shared-field movement toward target 66311 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:44] RadiantNPCs: resident 502 configured shared-field movement toward target 393735 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:45] RadiantNPCs: resident 320 configured shared-field movement toward target 394256 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:45] RadiantNPCs: resident 321 configured shared-field movement toward target 394256 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:45] RadiantNPCs: resident 326 configured shared-field movement toward target 327942 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:45] RadiantNPCs: resident 416 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-15 01:38:45] RadiantNPCs: resident 503 configured shared-field movement toward target 393739 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:46] RadiantNPCs: resident 398 fell back to CPU shared field for target -1000003.
+[2026-03-15 01:38:46] RadiantNPCs: resident 398 retargeted to -1000002 after navigation failure.
+[2026-03-15 01:38:46] RadiantNPCs: movement disabled for resident 504 because no free reachable start tile was available.
+[2026-03-15 01:38:46] RadiantNPCs: resident 325 configured shared-field movement toward target 132113 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:46] RadiantNPCs: resident 505 configured shared-field movement toward target 196864 (state=Shopping, source=GPU).
+[2026-03-15 01:38:46] RadiantNPCs: resident 506 configured shared-field movement toward target 393474 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:47] RadiantNPCs: resident 509 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-15 01:38:47] RadiantNPCs: resident 511 configured shared-field movement toward target 393483 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:47] RadiantNPCs: resident 475 configured shared-field movement toward target 328719 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:47] RadiantNPCs: resident 476 configured shared-field movement toward target 328719 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:48] RadiantNPCs: resident 512 fell back to CPU shared field for target -1000009.
+[2026-03-15 01:38:48] RadiantNPCs: resident 512 retargeted to -1000008 after navigation failure.
+[2026-03-15 01:38:48] RadiantNPCs: movement disabled for resident 512 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:38:48] RadiantNPCs: resident 513 configured shared-field movement toward target 197383 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:48] RadiantNPCs: resident 515 configured shared-field movement toward target 328707 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:48] RadiantNPCs: resident 516 fell back to CPU shared field for target 394242.
+[2026-03-15 01:38:48] RadiantNPCs: resident 516 retargeted to 65810 after navigation failure.
+[2026-03-15 01:38:48] RadiantNPCs: movement disabled for resident 516 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:38:48] RadiantNPCs: resident 517 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-15 01:38:49] RadiantNPCs: resident 518 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-15 01:38:49] RadiantNPCs: resident 385 configured shared-field movement toward target 131846 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:49] RadiantNPCs: resident 520 configured shared-field movement toward target 328712 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:49] RadiantNPCs: resident 521 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-15 01:38:49] RadiantNPCs: resident 524 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-15 01:38:49] RadiantNPCs: resident 525 configured shared-field movement toward target 262917 (state=Shopping, source=GPU).
+[2026-03-15 01:38:49] RadiantNPCs: resident 526 configured shared-field movement toward target 394254 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:50] RadiantNPCs: resident 527 configured shared-field movement toward target 394254 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:50] RadiantNPCs: resident 529 configured shared-field movement toward target 262656 (state=Shopping, source=GPU).
+[2026-03-15 01:38:50] RadiantNPCs: resident 530 configured shared-field movement toward target 131338 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:50] RadiantNPCs: resident 531 fell back to CPU shared field for target 66560.
+[2026-03-15 01:38:50] RadiantNPCs: resident 531 retargeted to 262913 after navigation failure.
+[2026-03-15 01:38:50] RadiantNPCs: resident 531 configured shared-field movement toward target 262913 (state=Shopping, source=CPU).
+[2026-03-15 01:38:50] RadiantNPCs: resident 532 configured shared-field movement toward target 393485 (state=Shopping, source=GPU).
+[2026-03-15 01:38:51] RadiantNPCs: resident 533 configured shared-field movement toward target 328455 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:51] RadiantNPCs: resident 535 configured shared-field movement toward target 328457 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:51] RadiantNPCs: resident 536 fell back to CPU shared field for target 65809.
+[2026-03-15 01:38:51] RadiantNPCs: resident 536 retargeted to 262914 after navigation failure.
+[2026-03-15 01:38:51] RadiantNPCs: resident 536 configured shared-field movement toward target 262914 (state=Shopping, source=CPU).
+[2026-03-15 01:38:51] RadiantNPCs: resident 399 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-15 01:38:51] RadiantNPCs: resident 420 configured shared-field movement toward target 328193 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:51] RadiantNPCs: resident 422 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-15 01:38:51] RadiantNPCs: resident 424 configured shared-field movement toward target 393728 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:52] RadiantNPCs: movement disabled for resident 425 because no free reachable start tile was available.
+[2026-03-15 01:38:52] RadiantNPCs: resident 407 configured shared-field movement toward target 262403 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:52] RadiantNPCs: resident 429 configured shared-field movement toward target 197641 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:52] RadiantNPCs: resident 434 configured shared-field movement toward target 328205 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:56] RadiantNPCs: resident 482 configured shared-field movement toward target 393994 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:56] RadiantNPCs: resident 483 configured shared-field movement toward target 393994 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:58] RadiantNPCs: resident 319 configured shared-field movement toward target 66319 (state=Shopping, source=GPU).
+[2026-03-15 01:38:58] RadiantNPCs: resident 371 configured shared-field movement toward target 328710 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:58] RadiantNPCs: resident 377 configured shared-field movement toward target 197645 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:59] RadiantNPCs: resident 389 configured shared-field movement toward target 65796 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:38:59] RadiantNPCs: resident 390 configured shared-field movement toward target 131329 (state=Shopping, source=GPU).
+[2026-03-15 01:38:59] RadiantNPCs: resident 478 configured shared-field movement toward target 262915 (state=Shopping, source=GPU).
+[2026-03-15 01:38:59] RadiantNPCs: movement disabled for resident 480 because no free reachable start tile was available.
+[2026-03-15 01:38:59] RadiantNPCs: resident 435 configured shared-field movement toward target 131329 (state=Shopping, source=GPU).
+[2026-03-15 01:39:00] RadiantNPCs: resident 436 configured shared-field movement toward target 132114 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:00] RadiantNPCs: resident 437 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-15 01:39:00] RadiantNPCs: resident 438 configured shared-field movement toward target 131857 (state=Shopping, source=GPU).
+[2026-03-15 01:39:00] RadiantNPCs: resident 440 configured shared-field movement toward target 393988 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:00] RadiantNPCs: resident 441 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-15 01:39:03] RadiantNPCs: resident 382 configured shared-field movement toward target 197381 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:03] RadiantNPCs: resident 442 configured shared-field movement toward target 197120 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:03] RadiantNPCs: resident 405 configured shared-field movement toward target 328720 (state=Shopping, source=GPU).
+[2026-03-15 01:39:03] RadiantNPCs: resident 406 configured shared-field movement toward target 328720 (state=Shopping, source=GPU).
+[2026-03-15 01:39:03] RadiantNPCs: resident 411 configured shared-field movement toward target 328207 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:04] RadiantNPCs: resident 412 configured shared-field movement toward target 328207 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:04] RadiantNPCs: resident 465 configured shared-field movement toward target 263168 (state=Shopping, source=GPU).
+[2026-03-15 01:39:04] RadiantNPCs: resident 471 configured shared-field movement toward target 393729 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:04] RadiantNPCs: resident 474 configured shared-field movement toward target 131857 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:04] RadiantNPCs: resident 409 configured shared-field movement toward target 328460 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:04] RadiantNPCs: resident 432 configured shared-field movement toward target 393485 (state=Shopping, source=GPU).
+[2026-03-15 01:39:04] RadiantNPCs: resident 410 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-15 01:39:05] RadiantNPCs: resident 417 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-15 01:39:05] RadiantNPCs: resident 374 configured shared-field movement toward target 131857 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:05] RadiantNPCs: resident 423 configured shared-field movement toward target 393731 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:05] RadiantNPCs: resident 467 configured shared-field movement toward target 263171 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:05] RadiantNPCs: resident 484 configured shared-field movement toward target 393734 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:05] RadiantNPCs: resident 486 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-15 01:39:05] RadiantNPCs: resident 413 configured shared-field movement toward target 131330 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:06] RadiantNPCs: resident 487 fell back to CPU shared field for target 262656.
+[2026-03-15 01:39:06] RadiantNPCs: resident 487 retargeted to 197632 after navigation failure.
+[2026-03-15 01:39:06] RadiantNPCs: movement disabled for resident 487 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:39:06] RadiantNPCs: resident 491 configured shared-field movement toward target 393992 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:06] RadiantNPCs: resident 494 configured shared-field movement toward target 65801 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:06] RadiantNPCs: resident 418 configured shared-field movement toward target 66060 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:06] RadiantNPCs: resident 337 configured shared-field movement toward target 328200 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:06] RadiantNPCs: resident 328 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-15 01:39:07] RadiantNPCs: resident 386 configured shared-field movement toward target 262917 (state=Shopping, source=GPU).
+[2026-03-15 01:39:07] RadiantNPCs: resident 419 configured shared-field movement toward target 131600 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:07] RadiantNPCs: resident 473 configured shared-field movement toward target 131857 (state=Shopping, source=GPU).
+[2026-03-15 01:39:07] RadiantNPCs: resident 496 configured shared-field movement toward target 263176 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:07] RadiantNPCs: resident 500 configured shared-field movement toward target 328706 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:07] RadiantNPCs: resident 323 configured shared-field movement toward target 131600 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:07] RadiantNPCs: resident 403 configured shared-field movement toward target 66311 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:07] RadiantNPCs: resident 502 configured shared-field movement toward target 393735 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:07] RadiantNPCs: resident 320 configured shared-field movement toward target 394256 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:07] RadiantNPCs: resident 326 configured shared-field movement toward target 327942 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:07] RadiantNPCs: resident 416 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-15 01:39:08] RadiantNPCs: resident 325 configured shared-field movement toward target 132113 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:08] RadiantNPCs: resident 507 fell back to CPU shared field for target 131857.
+[2026-03-15 01:39:08] RadiantNPCs: resident 507 retargeted to 131851 after navigation failure.
+[2026-03-15 01:39:08] RadiantNPCs: movement disabled for resident 507 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:39:08] RadiantNPCs: resident 509 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-15 01:39:08] RadiantNPCs: resident 511 configured shared-field movement toward target 393483 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:09] RadiantNPCs: resident 503 reached target building 393739 in state ExteriorWander and was sheltered indoors.
+[2026-03-15 01:39:09] RadiantNPCs: resident 376 configured shared-field movement toward target 262919 (state=Shopping, source=GPU).
+[2026-03-15 01:39:09] RadiantNPCs: resident 515 configured shared-field movement toward target 328707 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:10] RadiantNPCs: resident 517 fell back to CPU shared field for target 328448.
+[2026-03-15 01:39:10] RadiantNPCs: resident 518 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-15 01:39:10] RadiantNPCs: resident 385 configured shared-field movement toward target 131846 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:10] RadiantNPCs: resident 524 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-15 01:39:10] RadiantNPCs: resident 530 configured shared-field movement toward target 131338 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:10] RadiantNPCs: resident 531 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-15 01:39:11] RadiantNPCs: resident 399 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-15 01:39:11] RadiantNPCs: resident 420 configured shared-field movement toward target 328193 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:11] RadiantNPCs: resident 422 configured shared-field movement toward target 197376 (state=Shopping, source=GPU).
+[2026-03-15 01:39:11] RadiantNPCs: resident 424 configured shared-field movement toward target 393728 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:11] RadiantNPCs: resident 425 configured shared-field movement toward target 393728 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:12] RadiantNPCs: resident 506 configured shared-field movement toward target 393474 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:12] RadiantNPCs: resident 319 configured shared-field movement toward target 66319 (state=Shopping, source=GPU).
+[2026-03-15 01:39:13] RadiantNPCs: resident 377 configured shared-field movement toward target 197645 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:13] RadiantNPCs: resident 390 configured shared-field movement toward target 131329 (state=Shopping, source=GPU).
+[2026-03-15 01:39:13] RadiantNPCs: resident 480 configured shared-field movement toward target 393989 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:13] RadiantNPCs: resident 440 configured shared-field movement toward target 393988 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:13] RadiantNPCs: resident 441 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-15 01:39:13] RadiantNPCs: resident 382 configured shared-field movement toward target 197381 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:15] RadiantNPCs: resident 467 configured shared-field movement toward target 263171 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:16] RadiantNPCs: resident 486 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-15 01:39:16] RadiantNPCs: resident 378 configured shared-field movement toward target 131857 (state=Shopping, source=GPU).
+[2026-03-15 01:39:16] RadiantNPCs: resident 494 configured shared-field movement toward target 65801 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:25] RadiantNPCs: resident 535 fell back to CPU shared field for target 328457.
+[2026-03-15 01:39:28] RadiantNPCs: resident 317 fell back to CPU shared field for target 393472.
+[2026-03-15 01:39:28] RadiantNPCs: resident 317 retargeted to 66569 after navigation failure.
+[2026-03-15 01:39:28] RadiantNPCs: movement disabled for resident 317 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:39:28] RadiantNPCs: resident 318 configured shared-field movement toward target 328718 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:28] RadiantNPCs: resident 383 fell back to CPU shared field for target 66319.
+[2026-03-15 01:39:28] RadiantNPCs: resident 383 retargeted to 131851 after navigation failure.
+[2026-03-15 01:39:28] RadiantNPCs: movement disabled for resident 383 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:39:28] RadiantNPCs: resident 384 fell back to CPU shared field for target 66319.
+[2026-03-15 01:39:29] RadiantNPCs: resident 384 retargeted to 393485 after navigation failure.
+[2026-03-15 01:39:29] RadiantNPCs: movement disabled for resident 384 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:39:29] RadiantNPCs: resident 424 configured shared-field movement toward target 393728 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:29] RadiantNPCs: resident 506 configured shared-field movement toward target 393474 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:32] RadiantNPCs: resident 340 configured shared-field movement toward target 328196 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:32] RadiantNPCs: resident 341 configured shared-field movement toward target 328196 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:32] RadiantNPCs: resident 343 fell back to CPU shared field for target 66560.
+[2026-03-15 01:39:36] RadiantNPCs: resident 306 configured shared-field movement toward target 131842 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:36] RadiantNPCs: resident 440 configured shared-field movement toward target 393988 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:38] RadiantNPCs: resident 513 fell back to CPU shared field for target 197383.
+[2026-03-15 01:39:40] RadiantNPCs: resident 322 configured shared-field movement toward target 262917 (state=Shopping, source=GPU).
+[2026-03-15 01:39:40] RadiantNPCs: resident 330 configured shared-field movement toward target 393998 (state=Shopping, source=GPU).
+[2026-03-15 01:39:40] RadiantNPCs: resident 382 configured shared-field movement toward target 197381 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:40] RadiantNPCs: resident 442 configured shared-field movement toward target 197120 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:46] RadiantNPCs: resident 253 fell back to CPU shared field for target 66560.
+[2026-03-15 01:39:46] RadiantNPCs: resident 253 retargeted to 197632 after navigation failure.
+[2026-03-15 01:39:46] RadiantNPCs: resident 253 configured shared-field movement toward target 197632 (state=Shopping, source=CPU).
+[2026-03-15 01:39:46] RadiantNPCs: resident 246 configured shared-field movement toward target 131852 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:46] RadiantNPCs: resident 247 configured shared-field movement toward target 131852 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:46] RadiantNPCs: resident 255 configured shared-field movement toward target 65792 (state=Shopping, source=GPU).
+[2026-03-15 01:39:46] RadiantNPCs: resident 256 configured shared-field movement toward target 262413 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:47] RadiantNPCs: resident 372 configured shared-field movement toward target 65792 (state=Shopping, source=GPU).
+[2026-03-15 01:39:49] RadiantNPCs: resident 315 configured shared-field movement toward target 131840 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:39:50] RadiantNPCs: resident 405 configured shared-field movement toward target 328720 (state=Shopping, source=GPU).
+[2026-03-15 01:39:52] RadiantNPCs: resident 522 reached target building 393990 in state ExteriorWander and was sheltered indoors.
+[2026-03-15 01:39:57] RadiantNPCs: resident 531 fell back to CPU shared field for target 262913.
+[2026-03-15 01:40:00] RadiantNPCs: resident 521 fell back to CPU shared field for target 197376.
+[2026-03-15 01:40:02] RadiantNPCs: resident 432 configured shared-field movement toward target 393485 (state=Shopping, source=GPU).
+[2026-03-15 01:40:05] RadiantNPCs: resident 489 fell back to CPU shared field for target 131849.
+[2026-03-15 01:40:09] RadiantNPCs: resident 533 reached target building 328455 in state ExteriorWander and was sheltered indoors.
+[2026-03-15 01:40:14] RadiantNPCs: resident 467 configured shared-field movement toward target 263171 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:40:14] RadiantNPCs: resident 484 configured shared-field movement toward target 393734 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:40:14] RadiantNPCs: resident 486 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-15 01:40:16] RadiantNPCs: resident 504 reached target building 393739 in state ExteriorWander and was sheltered indoors.
+[2026-03-15 01:41:14] RadiantNPCs: resident 495 fell back to CPU shared field for target 197385.
+[2026-03-15 01:41:14] RadiantNPCs: resident 440 fell back to CPU shared field for target 393988.
+[2026-03-15 01:41:16] RadiantNPCs: resident 429 configured shared-field movement toward target 197641 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:16] RadiantNPCs: resident 494 configured shared-field movement toward target 65801 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:16] RadiantNPCs: resident 339 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-15 01:41:16] RadiantNPCs: resident 469 configured shared-field movement toward target 197632 (state=Shopping, source=GPU).
+[2026-03-15 01:41:17] RadiantNPCs: resident 332 configured shared-field movement toward target 328204 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:18] RadiantNPCs: resident 524 fell back to CPU shared field for target 262922.
+[2026-03-15 01:41:18] RadiantNPCs: schedule summary for Daggerfall/Ipshead at 11:00 - home=161, wander=209, shop=143, visit=0, tavern=0, patrol=23.
+[2026-03-15 01:41:18] RadiantNPCs: set max exterior resident population to 64 for MapID=1170417075.
+[2026-03-15 01:41:18] RadiantNPCs: resident 493 configured shared-field movement toward target 394254 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:19] RadiantNPCs: resident 495 configured shared-field movement toward target 328448 (state=Shopping, source=GPU).
+[2026-03-15 01:41:19] RadiantNPCs: resident 489 configured shared-field movement toward target 132104 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:19] RadiantNPCs: resident 498 configured shared-field movement toward target 196867 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:19] RadiantNPCs: resident 515 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-15 01:41:19] RadiantNPCs: resident 502 configured shared-field movement toward target 328720 (state=Shopping, source=GPU).
+[2026-03-15 01:41:20] RadiantNPCs: resident 513 configured shared-field movement toward target 327943 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:20] RadiantNPCs: movement disabled for resident 517 because no free reachable start tile was available.
+[2026-03-15 01:41:20] RadiantNPCs: resident 520 configured shared-field movement toward target 132101 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:20] RadiantNPCs: resident 521 configured shared-field movement toward target 394247 (state=AtHome, source=GPU).
+[2026-03-15 01:41:20] RadiantNPCs: resident 525 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-15 01:41:21] RadiantNPCs: resident 526 configured shared-field movement toward target 393991 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:21] RadiantNPCs: resident 527 configured shared-field movement toward target 393991 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:21] RadiantNPCs: resident 529 fell back to CPU shared field for target 262409.
+[2026-03-15 01:41:21] RadiantNPCs: resident 529 retargeted to 66574 after navigation failure.
+[2026-03-15 01:41:21] RadiantNPCs: movement disabled for resident 529 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:41:21] RadiantNPCs: resident 532 configured shared-field movement toward target 262915 (state=Shopping, source=GPU).
+[2026-03-15 01:41:21] RadiantNPCs: resident 535 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-15 01:41:21] RadiantNPCs: resident 536 configured shared-field movement toward target 394257 (state=AtHome, source=GPU).
+[2026-03-15 01:41:22] RadiantNPCs: resident 434 configured shared-field movement toward target 262667 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:22] RadiantNPCs: resident 435 configured shared-field movement toward target 328718 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:22] RadiantNPCs: movement disabled for resident 511 because no free reachable start tile was available.
+[2026-03-15 01:41:23] RadiantNPCs: resident 531 configured shared-field movement toward target 196878 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:23] RadiantNPCs: movement disabled for resident 524 because no free reachable start tile was available.
+[2026-03-15 01:41:23] RadiantNPCs: resident 422 fell back to CPU shared field for target 196864.
+[2026-03-15 01:41:23] RadiantNPCs: resident 422 retargeted to 328720 after navigation failure.
+[2026-03-15 01:41:23] RadiantNPCs: resident 422 configured shared-field movement toward target 328720 (state=Shopping, source=CPU).
+[2026-03-15 01:41:23] RadiantNPCs: resident 425 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-15 01:41:23] RadiantNPCs: resident 442 configured shared-field movement toward target 393729 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:23] RadiantNPCs: resident 440 configured shared-field movement toward target 393735 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:24] RadiantNPCs: resident 424 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-15 01:41:24] RadiantNPCs: resident 405 configured shared-field movement toward target 393988 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:24] RadiantNPCs: resident 432 fell back to CPU shared field for target 328711.
+[2026-03-15 01:41:24] RadiantNPCs: resident 432 retargeted to 66311 after navigation failure.
+[2026-03-15 01:41:24] RadiantNPCs: resident 432 configured shared-field movement toward target 66311 (state=AtHome, source=CPU).
+[2026-03-15 01:41:25] RadiantNPCs: resident 235 configured shared-field movement toward target 197638 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:25] RadiantNPCs: resident 245 configured shared-field movement toward target 262919 (state=Shopping, source=GPU).
+[2026-03-15 01:41:25] RadiantNPCs: resident 252 configured shared-field movement toward target 262916 (state=Shopping, source=GPU).
+[2026-03-15 01:41:25] RadiantNPCs: resident 254 configured shared-field movement toward target 328206 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:25] RadiantNPCs: resident 258 configured shared-field movement toward target 262405 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:25] RadiantNPCs: resident 302 configured shared-field movement toward target 393998 (state=Shopping, source=GPU).
+[2026-03-15 01:41:26] RadiantNPCs: resident 309 configured shared-field movement toward target 197378 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:26] RadiantNPCs: resident 316 configured shared-field movement toward target 393993 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:26] RadiantNPCs: resident 521 fell back to CPU shared field for target 394247.
+[2026-03-15 01:41:26] RadiantNPCs: resident 327 fell back to CPU shared field for target -1000002.
+[2026-03-15 01:41:26] RadiantNPCs: resident 327 retargeted to -1000003 after navigation failure.
+[2026-03-15 01:41:26] RadiantNPCs: movement disabled for resident 327 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:41:26] RadiantNPCs: resident 338 fell back to CPU shared field for target 65793.
+[2026-03-15 01:41:26] RadiantNPCs: resident 338 retargeted to 66306 after navigation failure.
+[2026-03-15 01:41:26] RadiantNPCs: movement disabled for resident 338 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:41:27] RadiantNPCs: resident 433 configured shared-field movement toward target 262657 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:28] RadiantNPCs: resident 466 fell back to CPU shared field for target 132107.
+[2026-03-15 01:41:28] RadiantNPCs: resident 466 retargeted to 66050 after navigation failure.
+[2026-03-15 01:41:28] RadiantNPCs: resident 466 configured shared-field movement toward target 66050 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:41:28] RadiantNPCs: resident 468 configured shared-field movement toward target 394241 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:28] RadiantNPCs: resident 470 configured shared-field movement toward target 263172 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:28] RadiantNPCs: resident 477 configured shared-field movement toward target 394253 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:28] RadiantNPCs: resident 485 fell back to CPU shared field for target 327940.
+[2026-03-15 01:41:29] RadiantNPCs: resident 485 retargeted to 131856 after navigation failure.
+[2026-03-15 01:41:29] RadiantNPCs: resident 485 configured shared-field movement toward target 131856 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:41:29] RadiantNPCs: resident 508 configured shared-field movement toward target 131328 (state=Shopping, source=GPU).
+[2026-03-15 01:41:29] RadiantNPCs: resident 510 configured shared-field movement toward target 196871 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:29] RadiantNPCs: resident 528 fell back to CPU shared field for target -1000005.
+[2026-03-15 01:41:29] RadiantNPCs: resident 528 retargeted to -1000004 after navigation failure.
+[2026-03-15 01:41:29] RadiantNPCs: movement disabled for resident 528 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:41:29] RadiantNPCs: resident 522 configured shared-field movement toward target 131840 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:29] RadiantNPCs: resident 533 configured shared-field movement toward target 262403 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:29] RadiantNPCs: resident 333 configured shared-field movement toward target 263168 (state=Shopping, source=GPU).
+[2026-03-15 01:41:30] RadiantNPCs: resident 513 fell back to CPU shared field for target 327943.
+[2026-03-15 01:41:30] RadiantNPCs: resident 334 configured shared-field movement toward target 131591 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:30] RadiantNPCs: resident 336 configured shared-field movement toward target 131855 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:30] RadiantNPCs: resident 337 configured shared-field movement toward target 131855 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:31] RadiantNPCs: resident 433 fell back to CPU shared field for target 262657.
+[2026-03-15 01:41:31] RadiantNPCs: resident 536 fell back to CPU shared field for target 394257.
+[2026-03-15 01:41:38] RadiantNPCs: resident 328 configured shared-field movement toward target 328196 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:38] RadiantNPCs: resident 414 configured shared-field movement toward target 197383 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:40] RadiantNPCs: resident 419 configured shared-field movement toward target 328705 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:41:40] RadiantNPCs: resident 472 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-15 01:41:41] RadiantNPCs: resident 473 configured shared-field movement toward target 262913 (state=Shopping, source=GPU).
+[2026-03-15 01:41:41] RadiantNPCs: resident 500 fell back to CPU shared field for target 65806.
+[2026-03-15 01:41:42] RadiantNPCs: resident 500 retargeted to 66062 after navigation failure.
+[2026-03-15 01:41:42] RadiantNPCs: resident 500 configured shared-field movement toward target 66062 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:41:46] RadiantNPCs: resident 531 fell back to CPU shared field for target 196878.
+[2026-03-15 01:41:46] RadiantNPCs: resident 525 fell back to CPU shared field for target 131851.
+[2026-03-15 01:41:47] RadiantNPCs: resident 442 fell back to CPU shared field for target 393729.
+[2026-03-15 01:41:50] RadiantNPCs: resident 328 fell back to CPU shared field for target 328196.
+[2026-03-15 01:41:53] RadiantNPCs: resident 489 fell back to CPU shared field for target 132104.
+[2026-03-15 01:41:57] RadiantNPCs: resident 427 reached target building 328199 in state ExteriorWander and was sheltered indoors.
+[2026-03-15 01:42:04] RadiantNPCs: resident 493 fell back to CPU shared field for target 394254.
+[2026-03-15 01:42:10] RadiantNPCs: resident 413 reached target building 262922 in state Shopping and was sheltered indoors.
+[2026-03-15 01:42:10] RadiantNPCs: resident 321 configured shared-field movement toward target 328460 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:11] RadiantNPCs: resident 405 fell back to CPU shared field for target 393988.
+[2026-03-15 01:42:12] RadiantNPCs: resident 224 configured shared-field movement toward target 131328 (state=Shopping, source=GPU).
+[2026-03-15 01:42:12] RadiantNPCs: resident 237 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-15 01:42:12] RadiantNPCs: resident 225 configured shared-field movement toward target 328192 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:12] RadiantNPCs: resident 226 configured shared-field movement toward target 328192 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:12] RadiantNPCs: resident 257 configured shared-field movement toward target 393728 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:14] RadiantNPCs: resident 325 configured shared-field movement toward target 132114 (state=Shopping, source=GPU).
+[2026-03-15 01:42:14] RadiantNPCs: resident 505 configured shared-field movement toward target 262914 (state=Shopping, source=GPU).
+[2026-03-15 01:42:15] RadiantNPCs: resident 375 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-15 01:42:15] RadiantNPCs: resident 376 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-15 01:42:15] RadiantNPCs: resident 516 configured shared-field movement toward target 393984 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:15] RadiantNPCs: resident 385 configured shared-field movement toward target 262917 (state=Shopping, source=GPU).
+[2026-03-15 01:42:15] RadiantNPCs: resident 530 configured shared-field movement toward target -1000003 (state=Patrol, source=GPU).
+[2026-03-15 01:42:15] RadiantNPCs: resident 420 configured shared-field movement toward target 197632 (state=Shopping, source=GPU).
+[2026-03-15 01:42:15] RadiantNPCs: resident 301 configured shared-field movement toward target 262656 (state=Shopping, source=GPU).
+[2026-03-15 01:42:16] RadiantNPCs: resident 318 fell back to CPU shared field for target 328711.
+[2026-03-15 01:42:16] RadiantNPCs: resident 318 retargeted to 66054 after navigation failure.
+[2026-03-15 01:42:16] RadiantNPCs: resident 318 configured shared-field movement toward target 66054 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:42:16] RadiantNPCs: resident 383 fell back to CPU shared field for target 393738.
+[2026-03-15 01:42:16] RadiantNPCs: resident 383 retargeted to 66051 after navigation failure.
+[2026-03-15 01:42:16] RadiantNPCs: movement disabled for resident 383 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:42:17] RadiantNPCs: resident 384 fell back to CPU shared field for target 262916.
+[2026-03-15 01:42:17] RadiantNPCs: resident 384 retargeted to 262915 after navigation failure.
+[2026-03-15 01:42:17] RadiantNPCs: movement disabled for resident 384 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:42:18] RadiantNPCs: resident 495 reached target building 328448 in state Shopping and was sheltered indoors.
+[2026-03-15 01:42:19] RadiantNPCs: resident 535 fell back to CPU shared field for target 262912.
+[2026-03-15 01:42:22] RadiantNPCs: resident 243 configured shared-field movement toward target 131857 (state=Shopping, source=GPU).
+[2026-03-15 01:42:25] RadiantNPCs: resident 236 configured shared-field movement toward target 131589 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:25] RadiantNPCs: resident 249 configured shared-field movement toward target 131336 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:25] RadiantNPCs: resident 498 configured shared-field movement toward target 196867 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:26] RadiantNPCs: resident 507 fell back to CPU shared field for target 262922.
+[2026-03-15 01:42:26] RadiantNPCs: resident 507 retargeted to 131851 after navigation failure.
+[2026-03-15 01:42:26] RadiantNPCs: resident 319 fell back to CPU shared field for target 66572.
+[2026-03-15 01:42:26] RadiantNPCs: resident 319 retargeted to 66563 after navigation failure.
+[2026-03-15 01:42:26] RadiantNPCs: resident 319 configured shared-field movement toward target 66563 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:42:29] RadiantNPCs: resident 389 configured shared-field movement toward target 262919 (state=Shopping, source=GPU).
+[2026-03-15 01:42:31] RadiantNPCs: resident 221 configured shared-field movement toward target 328205 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:32] RadiantNPCs: resident 179 configured shared-field movement toward target 393731 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:32] RadiantNPCs: resident 168 fell back to CPU shared field for target 66053.
+[2026-03-15 01:42:32] RadiantNPCs: resident 168 retargeted to 66312 after navigation failure.
+[2026-03-15 01:42:32] RadiantNPCs: movement disabled for resident 168 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:42:33] RadiantNPCs: resident 170 configured shared-field movement toward target 328195 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:33] RadiantNPCs: resident 172 configured shared-field movement toward target 65792 (state=Shopping, source=GPU).
+[2026-03-15 01:42:38] RadiantNPCs: spawned 1 interior residents for building 328460.
+[2026-03-15 01:42:48] RadiantNPCs: set max exterior resident population to 64 for MapID=1170417075.
+[2026-03-15 01:42:48] RadiantNPCs: resident 493 configured shared-field movement toward target 394254 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:48] RadiantNPCs: resident 489 configured shared-field movement toward target 132104 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:48] RadiantNPCs: resident 515 configured shared-field movement toward target 262922 (state=Shopping, source=GPU).
+[2026-03-15 01:42:48] RadiantNPCs: resident 321 configured shared-field movement toward target 328460 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:49] RadiantNPCs: resident 517 configured shared-field movement toward target 262916 (state=Shopping, source=GPU).
+[2026-03-15 01:42:49] RadiantNPCs: resident 520 configured shared-field movement toward target 132101 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:49] RadiantNPCs: resident 521 configured shared-field movement toward target 394247 (state=AtHome, source=GPU).
+[2026-03-15 01:42:49] RadiantNPCs: resident 525 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-15 01:42:49] RadiantNPCs: resident 526 configured shared-field movement toward target 393991 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:49] RadiantNPCs: resident 527 configured shared-field movement toward target 393991 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:49] RadiantNPCs: resident 529 fell back to CPU shared field for target 66574.
+[2026-03-15 01:42:49] RadiantNPCs: resident 529 retargeted to 132110 after navigation failure.
+[2026-03-15 01:42:49] RadiantNPCs: resident 529 configured shared-field movement toward target 132110 (state=ExteriorWander, source=CPU).
+[2026-03-15 01:42:49] RadiantNPCs: resident 532 configured shared-field movement toward target 262915 (state=Shopping, source=GPU).
+[2026-03-15 01:42:49] RadiantNPCs: resident 535 configured shared-field movement toward target 262912 (state=Shopping, source=GPU).
+[2026-03-15 01:42:49] RadiantNPCs: resident 434 configured shared-field movement toward target 262667 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:49] RadiantNPCs: resident 435 configured shared-field movement toward target 328718 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: movement disabled for resident 524 because no free reachable start tile was available.
+[2026-03-15 01:42:50] RadiantNPCs: resident 425 configured shared-field movement toward target 131851 (state=Shopping, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 442 configured shared-field movement toward target 393729 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 440 configured shared-field movement toward target 393735 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 405 configured shared-field movement toward target 393988 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 432 configured shared-field movement toward target 66311 (state=AtHome, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 433 configured shared-field movement toward target 262657 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 528 fell back to CPU shared field for target -1000005.
+[2026-03-15 01:42:50] RadiantNPCs: resident 528 retargeted to -1000004 after navigation failure.
+[2026-03-15 01:42:50] RadiantNPCs: movement disabled for resident 528 because the shared navigation field was unusable at the current position.
+[2026-03-15 01:42:50] RadiantNPCs: resident 336 configured shared-field movement toward target 131855 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 337 configured shared-field movement toward target 131855 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 414 configured shared-field movement toward target 197383 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 500 configured shared-field movement toward target 66062 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 319 configured shared-field movement toward target 66563 (state=ExteriorWander, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 420 configured shared-field movement toward target 197632 (state=Shopping, source=GPU).
+[2026-03-15 01:42:50] RadiantNPCs: resident 442 fell back to CPU shared field for target 393729.

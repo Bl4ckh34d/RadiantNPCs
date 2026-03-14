@@ -1,0 +1,120 @@
+#pragma kernel RelaxDistances
+#pragma kernel BuildDirections
+
+StructuredBuffer<int> _Costs;
+StructuredBuffer<int> _DistanceIn;
+RWStructuredBuffer<int> _DistanceOut;
+StructuredBuffer<int> _Distances;
+RWStructuredBuffer<int> _Directions;
+RWStructuredBuffer<int> _Changed;
+
+int _Width;
+int _Height;
+int _InfiniteDistance;
+
+int ToIndex(int x, int y)
+{
+    return y * _Width + x;
+}
+
+void ConsiderNeighbor(int nx, int ny, int currentCost, inout int bestDistance)
+{
+    if (nx < 0 || nx >= _Width || ny < 0 || ny >= _Height)
+        return;
+
+    int neighbourIndex = ToIndex(nx, ny);
+    int neighbourDistance = _DistanceIn[neighbourIndex];
+    if (neighbourDistance >= _InfiniteDistance)
+        return;
+
+    int candidateDistance = neighbourDistance + currentCost;
+    if (candidateDistance < bestDistance)
+        bestDistance = candidateDistance;
+}
+
+[numthreads(8, 8, 1)]
+void RelaxDistances(uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= _Width || id.y >= _Height)
+        return;
+
+    int x = id.x;
+    int y = id.y;
+    int index = ToIndex(x, y);
+    int cost = _Costs[index];
+
+    if (cost < 0)
+    {
+        _DistanceOut[index] = _InfiniteDistance;
+        return;
+    }
+
+    int currentDistance = _DistanceIn[index];
+    int bestDistance = currentDistance;
+
+    ConsiderNeighbor(x + 1, y, cost, bestDistance);
+    ConsiderNeighbor(x - 1, y, cost, bestDistance);
+    ConsiderNeighbor(x, y + 1, cost, bestDistance);
+    ConsiderNeighbor(x, y - 1, cost, bestDistance);
+
+    _DistanceOut[index] = bestDistance;
+
+    if (bestDistance != currentDistance)
+    {
+        int previousValue;
+        InterlockedExchange(_Changed[0], 1, previousValue);
+    }
+}
+
+[numthreads(8, 8, 1)]
+void BuildDirections(uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= _Width || id.y >= _Height)
+        return;
+
+    int x = id.x;
+    int y = id.y;
+    int index = ToIndex(x, y);
+    int cost = _Costs[index];
+    int distance = _Distances[index];
+
+    if (cost < 0 || distance >= _InfiniteDistance || distance == 0)
+    {
+        _Directions[index] = -1;
+        return;
+    }
+
+    int bestDirection = -1;
+    int bestScore = distance;
+
+    for (int direction = 0; direction < 4; direction++)
+    {
+        int nx = x;
+        int ny = y;
+        if (direction == 0)
+            nx++;
+        else if (direction == 1)
+            nx--;
+        else if (direction == 2)
+            ny++;
+        else
+            ny--;
+
+        if (nx < 0 || nx >= _Width || ny < 0 || ny >= _Height)
+            continue;
+
+        int neighbourIndex = ToIndex(nx, ny);
+        int neighbourDistance = _Distances[neighbourIndex];
+        if (neighbourDistance >= _InfiniteDistance)
+            continue;
+
+        int score = neighbourDistance;
+        if (score < bestScore)
+        {
+            bestScore = score;
+            bestDirection = direction;
+        }
+    }
+
+    _Directions[index] = bestDirection;
+}

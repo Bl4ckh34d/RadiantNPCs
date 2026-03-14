@@ -17,6 +17,9 @@ These are the requirements provided so far and should be preserved as design con
 - Replace the current random wandering-city-NPC behavior with a persistent pool of residents per settlement.
 - Do not allow the vanilla system to effectively generate infinite random mobile NPCs.
 - RadiantNPCs should control the creation of mobile civilians and assign them to houses in a settlement/city/village.
+- The long-term goal is to have only unique NPCs in the world.
+- If an NPC dies, they should remain dead and should not respawn.
+- No new NPC should be generated as a replacement for a dead NPC.
 - The number of residents in a village, city, farm, or settlement should be based on the number of beds, with a small amount of variation.
 - Bed-based occupancy is preferred over simple building-type heuristics.
 - A couple (one man and one woman) can share a single bed.
@@ -251,6 +254,12 @@ Relevant files:
   - visible guard appearance for patrol-state guards
   - basic household-presence balancing so larger households are less often completely empty during the day
   - coarse destination building targets for shopping, tavern visits, and social visits
+  - permanent resident death tracking so dead residents can be excluded from future spawning instead of being silently replaced
+  - early paired spawn behavior so active partners can appear beside each other when sharing the same outside routine
+  - no citywide fallback spawn selection when the nearby active bubble has no eligible residents
+  - nearby eligibility now keys off a resident's current target anchor, not just their home household
+  - target buildings now prefer exterior door anchors where available instead of only using building centers
+  - active residents are now selected from nearby homes and depart outward toward destinations instead of appearing only at destination endpoints
 
 ### Phase 2
 
